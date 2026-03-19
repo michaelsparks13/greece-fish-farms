@@ -476,7 +476,8 @@ function addMapLayers() {
             'text-size': ['interpolate', ['linear'], ['zoom'], 5, 11, 8, 13],
             'text-font': ['Open Sans Italic'],
             'text-letter-spacing': 0.15,
-            'text-allow-overlap': false
+            'text-allow-overlap': true,
+            'text-ignore-placement': true
         },
         paint: {
             'text-color': 'hsla(200, 30%, 60%, 0.6)',
