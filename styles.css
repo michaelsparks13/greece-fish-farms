@@ -520,11 +520,6 @@ select:focus {
     color: var(--accent-gold);
 }
 
-.legend-info-left:hover::after {
-    left: 0;
-    transform: none;
-}
-
 .legend-info:hover::after {
     content: attr(data-tip);
     position: absolute;
@@ -540,10 +535,15 @@ select:focus {
     white-space: normal;
     width: 220px;
     line-height: 1.4;
-    z-index: 10;
+    z-index: 20;
     border: var(--border-heavy);
     pointer-events: none;
     margin-bottom: 4px;
+}
+
+.legend-info-left:hover::after {
+    left: 0;
+    transform: none;
 }
 
 /* Minimap */
