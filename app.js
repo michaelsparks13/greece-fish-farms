@@ -17,7 +17,7 @@ const TABLE_ROWS_PER_PAGE = 100;
 
 const TABLE_COLUMNS = [
     { key: 'owner', label: 'Owner' },
-    { key: 'type', label: 'Type', info: 'Whether the farm raises finfish (e.g. sea bass, sea bream) or shellfish (e.g. mussels, oysters)' },
+    { key: 'type', label: 'Type', info: 'Finfish (e.g. sea bass, sea bream) are carnivorous and require fishmeal from wild-caught fish. Shellfish (e.g. mussels) are filter feeders that need no fishmeal.' },
     { key: 'category', label: 'Category', info: 'The farm classification such as cage-based, pond, or hatchery' },
     { key: 'species', label: 'Species' },
     { key: 'production', label: 'Production' },
@@ -763,6 +763,7 @@ function showDetail(farm) {
                 <span class="detail-field-label">Type</span>
                 <span class="detail-field-value">${farm.type === 'finfish' ? 'Finfish' : 'Shellfish'}</span>
             </div>
+            <div class="detail-type-note ${farm.type}">${farm.type === 'finfish' ? 'Carnivorous — requires fishmeal and fish oil from wild-caught fish' : 'Filter feeder — no fishmeal required; feeds on algae and plankton'}</div>
             <div class="detail-field">
                 <span class="detail-field-label">Category</span>
                 <span class="detail-field-value">${farm.category}</span>
