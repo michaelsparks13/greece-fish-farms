@@ -344,39 +344,6 @@ function updateMapFilters() {
 }
 
 function addMapLayers() {
-    // Water body labels for geographic context
-    map.addSource('water-labels', {
-        type: 'geojson',
-        data: {
-            type: 'FeatureCollection',
-            features: [
-                { type: 'Feature', properties: { name: 'Aegean Sea' }, geometry: { type: 'Point', coordinates: [25.0, 38.5] } },
-                { type: 'Feature', properties: { name: 'Ionian Sea' }, geometry: { type: 'Point', coordinates: [19.8, 37.5] } },
-                { type: 'Feature', properties: { name: 'Sea of Crete' }, geometry: { type: 'Point', coordinates: [24.5, 35.8] } },
-                { type: 'Feature', properties: { name: 'Thermaikos Gulf' }, geometry: { type: 'Point', coordinates: [23.1, 40.2] } },
-                { type: 'Feature', properties: { name: 'Gulf of Corinth' }, geometry: { type: 'Point', coordinates: [22.2, 38.25] } }
-            ]
-        }
-    });
-
-    map.addLayer({
-        id: 'water-labels-layer',
-        type: 'symbol',
-        source: 'water-labels',
-        layout: {
-            'text-field': ['get', 'name'],
-            'text-size': ['interpolate', ['linear'], ['zoom'], 5, 11, 8, 13],
-            'text-font': ['Open Sans Italic'],
-            'text-letter-spacing': 0.15,
-            'text-allow-overlap': false
-        },
-        paint: {
-            'text-color': 'hsla(200, 30%, 60%, 0.6)',
-            'text-halo-color': 'rgba(0, 0, 0, 0.5)',
-            'text-halo-width': 1
-        }
-    });
-
     // Create triangle icon for finfish
     const size = 32;
     const canvas = document.createElement('canvas');
@@ -482,6 +449,39 @@ function addMapLayers() {
             ],
             'icon-allow-overlap': true,
             'icon-ignore-placement': true
+        }
+    });
+
+    // Water body labels — above point layers for geographic context
+    map.addSource('water-labels', {
+        type: 'geojson',
+        data: {
+            type: 'FeatureCollection',
+            features: [
+                { type: 'Feature', properties: { name: 'Aegean Sea' }, geometry: { type: 'Point', coordinates: [25.0, 38.5] } },
+                { type: 'Feature', properties: { name: 'Ionian Sea' }, geometry: { type: 'Point', coordinates: [19.8, 37.5] } },
+                { type: 'Feature', properties: { name: 'Sea of Crete' }, geometry: { type: 'Point', coordinates: [24.5, 35.8] } },
+                { type: 'Feature', properties: { name: 'Thermaikos Gulf' }, geometry: { type: 'Point', coordinates: [23.1, 40.2] } },
+                { type: 'Feature', properties: { name: 'Gulf of Corinth' }, geometry: { type: 'Point', coordinates: [22.2, 38.25] } }
+            ]
+        }
+    });
+
+    map.addLayer({
+        id: 'water-labels-layer',
+        type: 'symbol',
+        source: 'water-labels',
+        layout: {
+            'text-field': ['get', 'name'],
+            'text-size': ['interpolate', ['linear'], ['zoom'], 5, 11, 8, 13],
+            'text-font': ['Open Sans Italic'],
+            'text-letter-spacing': 0.15,
+            'text-allow-overlap': false
+        },
+        paint: {
+            'text-color': 'hsla(200, 30%, 60%, 0.6)',
+            'text-halo-color': 'rgba(0, 0, 0, 0.5)',
+            'text-halo-width': 1
         }
     });
 
@@ -594,7 +594,7 @@ function addMapLayers() {
             activePopup = new maplibregl.Popup({ offset: 12, maxWidth: '300px' })
                 .setLngLat(e.lngLat)
                 .setHTML(`
-                    <div class="popup-title">POAY Zone</div>
+                    <div class="popup-title">Fish Farm Expansion Zone</div>
                     <div class="popup-owner">${p.zone_en || p.zone_gr}</div>
                     <div class="popup-detail"><strong>Greek Name:</strong> ${p.name_gr}</div>
                     <div class="popup-detail"><strong>Region:</strong> ${p.zone_gr}</div>
@@ -671,7 +671,7 @@ function addMapLayers() {
         hoverPopup
             .setLngLat(e.lngLat)
             .setHTML(`
-                <div class="popup-title">POAY Zone</div>
+                <div class="popup-title">Fish Farm Expansion Zone</div>
                 <div class="popup-owner">${p.zone_en || p.zone_gr}</div>
                 <div class="popup-detail">${p.name_gr}</div>
             `)
@@ -721,7 +721,7 @@ function showPoayDetail(props) {
     const content = document.getElementById('detail-content');
 
     content.innerHTML = `
-        <div class="detail-title">POAY Zone</div>
+        <div class="detail-title">Fish Farm Expansion Zone</div>
         <div class="detail-subtitle">${props.zone_en || props.zone_gr}</div>
 
         <div class="detail-section">
