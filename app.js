@@ -17,7 +17,7 @@ const TABLE_ROWS_PER_PAGE = 100;
 
 const TABLE_COLUMNS = [
     { key: 'owner', label: 'Owner' },
-    { key: 'type', label: 'Type', info: 'Finfish (e.g. sea bass, sea bream) are carnivorous and require fishmeal from wild-caught fish. Shellfish (e.g. mussels) are filter feeders that need no fishmeal.' },
+    { key: 'type', label: 'Type', info: 'Finfish (e.g. sea bass, sea bream) are carnivorous and, when farmed, are often fed fishmeal reduced from wild-caught fish. Shellfish (e.g. mussels) are filter feeders that consume algae and plankton.' },
     { key: 'category', label: 'Category', info: 'The farm classification such as cage-based, pond, or hatchery' },
     { key: 'species', label: 'Species' },
     { key: 'production', label: 'Production' },
@@ -67,8 +67,8 @@ function initMap() {
                     'carto-dark': {
                         type: 'raster',
                         tiles: [
-                            'https://a.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}@2x.png',
-                            'https://b.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}@2x.png'
+                            'https://a.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}@2x.png',
+                            'https://b.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}@2x.png'
                         ],
                         tileSize: 256,
                         attribution: '&copy; <a href="https://carto.com/">CARTO</a> &copy; <a href="https://www.openstreetmap.org/copyright">OSM</a>'
@@ -117,8 +117,8 @@ function initMap() {
                             'text-padding': 10
                         },
                         paint: {
-                            'text-color': '#8a8a8a',
-                            'text-halo-color': 'rgba(0, 0, 0, 0.8)',
+                            'text-color': '#999',
+                            'text-halo-color': 'rgba(255, 255, 255, 0.8)',
                             'text-halo-width': 1.5
                         }
                     },
@@ -138,8 +138,8 @@ function initMap() {
                             'text-padding': 10
                         },
                         paint: {
-                            'text-color': '#8a8a8a',
-                            'text-halo-color': 'rgba(0, 0, 0, 0.8)',
+                            'text-color': '#999',
+                            'text-halo-color': 'rgba(255, 255, 255, 0.8)',
                             'text-halo-width': 1.5
                         }
                     }
@@ -357,7 +357,7 @@ function addMapLayers() {
     ctx.closePath();
     ctx.fillStyle = '#d4a052';
     ctx.fill();
-    ctx.strokeStyle = '#000';
+    ctx.strokeStyle = '#fff';
     ctx.lineWidth = 1.5;
     ctx.stroke();
 
@@ -386,7 +386,7 @@ function addMapLayers() {
                 12, 10
             ],
             'circle-color': '#64b4dc',
-            'circle-stroke-color': '#000',
+            'circle-stroke-color': '#fff',
             'circle-stroke-width': 1.5,
             'circle-opacity': 0.85
         }
@@ -481,7 +481,7 @@ function addMapLayers() {
         },
         paint: {
             'text-color': 'hsla(200, 30%, 60%, 0.6)',
-            'text-halo-color': 'rgba(0, 0, 0, 0.5)',
+            'text-halo-color': 'rgba(255, 255, 255, 0.7)',
             'text-halo-width': 1
         }
     });
@@ -546,7 +546,7 @@ function addMapLayers() {
         },
         paint: {
             'text-color': '#d4a052',
-            'text-halo-color': '#000',
+            'text-halo-color': '#fff',
             'text-halo-width': 1.5,
             'text-opacity': 0.85
         }
@@ -763,7 +763,7 @@ function showDetail(farm) {
                 <span class="detail-field-label">Type</span>
                 <span class="detail-field-value">${farm.type === 'finfish' ? 'Finfish' : 'Shellfish'}</span>
             </div>
-            <div class="detail-type-note ${farm.type}">${farm.type === 'finfish' ? 'Carnivorous — requires fishmeal and fish oil from wild-caught fish' : 'Filter feeder — no fishmeal required; feeds on algae and plankton'}</div>
+            <div class="detail-type-note ${farm.type}">${farm.type === 'finfish' ? 'Carnivorous — when farmed, often fed fishmeal reduced from wild-caught fish' : 'Filter feeder — consumes naturally occurring algae and plankton'}</div>
             <div class="detail-field">
                 <span class="detail-field-label">Category</span>
                 <span class="detail-field-value">${farm.category}</span>
