@@ -67,8 +67,8 @@ function initMap() {
                     'carto-dark': {
                         type: 'raster',
                         tiles: [
-                            'https://a.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}@2x.png',
-                            'https://b.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}@2x.png'
+                            'https://a.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}@2x.png',
+                            'https://b.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}@2x.png'
                         ],
                         tileSize: 256,
                         attribution: '&copy; <a href="https://carto.com/">CARTO</a> &copy; <a href="https://www.openstreetmap.org/copyright">OSM</a>'
@@ -117,8 +117,8 @@ function initMap() {
                             'text-padding': 10
                         },
                         paint: {
-                            'text-color': '#999',
-                            'text-halo-color': 'rgba(255, 255, 255, 0.8)',
+                            'text-color': '#8a8a8a',
+                            'text-halo-color': 'rgba(0, 0, 0, 0.8)',
                             'text-halo-width': 1.5
                         }
                     },
@@ -138,8 +138,8 @@ function initMap() {
                             'text-padding': 10
                         },
                         paint: {
-                            'text-color': '#999',
-                            'text-halo-color': 'rgba(255, 255, 255, 0.8)',
+                            'text-color': '#8a8a8a',
+                            'text-halo-color': 'rgba(0, 0, 0, 0.8)',
                             'text-halo-width': 1.5
                         }
                     }
@@ -357,7 +357,7 @@ function addMapLayers() {
     ctx.closePath();
     ctx.fillStyle = '#d4a052';
     ctx.fill();
-    ctx.strokeStyle = '#fff';
+    ctx.strokeStyle = '#000';
     ctx.lineWidth = 1.5;
     ctx.stroke();
 
@@ -386,7 +386,7 @@ function addMapLayers() {
                 12, 10
             ],
             'circle-color': '#64b4dc',
-            'circle-stroke-color': '#fff',
+            'circle-stroke-color': '#000',
             'circle-stroke-width': 1.5,
             'circle-opacity': 0.85
         }
@@ -481,7 +481,7 @@ function addMapLayers() {
         },
         paint: {
             'text-color': 'hsla(200, 30%, 60%, 0.6)',
-            'text-halo-color': 'rgba(255, 255, 255, 0.7)',
+            'text-halo-color': 'rgba(0, 0, 0, 0.5)',
             'text-halo-width': 1
         }
     });
@@ -546,7 +546,7 @@ function addMapLayers() {
         },
         paint: {
             'text-color': '#d4a052',
-            'text-halo-color': '#fff',
+            'text-halo-color': '#000',
             'text-halo-width': 1.5,
             'text-opacity': 0.85
         }

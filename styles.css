@@ -185,7 +185,7 @@ input, select {
 }
 
 #search:focus {
-    border-color: rgba(0, 0, 0, 0.25);
+    border-color: hsla(0, 0%, 100%, 0.25);
 }
 
 #search::placeholder {
@@ -223,7 +223,7 @@ input, select {
 }
 
 .filter-btn:hover {
-    border-color: rgba(0, 0, 0, 0.2);
+    border-color: hsla(0, 0%, 100%, 0.2);
     color: var(--text-primary);
 }
 
@@ -247,7 +247,7 @@ select {
 }
 
 select:focus {
-    border-color: rgba(0, 0, 0, 0.25);
+    border-color: hsla(0, 0%, 100%, 0.25);
 }
 
 /* Results */
@@ -302,7 +302,7 @@ select:focus {
 
 .farm-item {
     padding: 0.75em var(--padding);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+    border-bottom: 1px solid hsla(0, 0%, 100%, 0.05);
     cursor: pointer;
     transition: background 0.15s;
 }
@@ -312,7 +312,7 @@ select:focus {
 }
 
 .farm-item.active {
-    background: rgba(0, 0, 0, 0.06);
+    background: rgba(255, 255, 255, 0.1);
     border-left: 3px solid var(--accent-gold);
     padding-left: calc(var(--padding) - 3px);
 }
@@ -341,18 +341,18 @@ select:focus {
 }
 
 .type-finfish {
-    background: rgba(0, 0, 0, 0.06);
-    color: var(--text-primary);
+    background: rgba(212, 160, 82, 0.15);
+    color: var(--accent-gold);
 }
 
 .type-shellfish {
-    background: rgba(58, 124, 165, 0.1);
+    background: rgba(100, 180, 220, 0.15);
     color: var(--accent-blue);
 }
 
 .farm-item-name {
     font-size: 0.8125rem;
-    color: rgba(0, 0, 0, 0.65);
+    color: hsla(0, 0%, 100%, 0.7);
     margin-bottom: 0.25em;
     line-height: 1.3;
 }
@@ -379,11 +379,11 @@ select:focus {
 }
 
 .maplibregl-popup-content {
-    background: rgba(255, 255, 255, 0.95) !important;
+    background: rgba(0, 0, 0, 0.9) !important;
     color: var(--text-primary) !important;
     border-radius: var(--border-radius) !important;
     padding: 0.75em 1em !important;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15) !important;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5) !important;
     font-size: 0.8125rem;
     max-width: 280px !important;
     border: var(--border-heavy) !important;
@@ -391,7 +391,7 @@ select:focus {
 }
 
 .maplibregl-popup-tip {
-    border-top-color: rgba(255, 255, 255, 0.95) !important;
+    border-top-color: rgba(0, 0, 0, 0.9) !important;
 }
 
 .maplibregl-popup-close-button {
@@ -410,7 +410,7 @@ select:focus {
 
 .popup-owner {
     font-size: 0.75rem;
-    color: rgba(0, 0, 0, 0.65);
+    color: hsla(0, 0%, 100%, 0.7);
     margin-bottom: 0.5em;
     line-height: 1.3;
 }
@@ -422,7 +422,7 @@ select:focus {
 }
 
 .popup-detail strong {
-    color: rgba(0, 0, 0, 0.65);
+    color: hsla(0, 0%, 100%, 0.7);
 }
 
 /* Legend */
@@ -430,7 +430,7 @@ select:focus {
     position: absolute;
     bottom: 24px;
     left: 16px;
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(0, 0, 0, 0.85);
     padding: 0.625em 0.875em;
     border-radius: var(--border-radius);
     border: var(--border-heavy);
@@ -439,14 +439,13 @@ select:focus {
     font-size: 0.75rem;
     z-index: 5;
     backdrop-filter: blur(8px);
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .legend-item {
     display: flex;
     align-items: center;
     gap: 0.375em;
-    color: rgba(0, 0, 0, 0.65);
+    color: hsla(0, 0%, 100%, 0.7);
 }
 
 .legend-icon {
@@ -486,8 +485,8 @@ select:focus {
 }
 
 .poay-icon {
-    background: rgba(0, 0, 0, 0.06);
-    border: 1.5px solid rgba(0, 0, 0, 0.3);
+    background: rgba(212, 160, 82, 0.2);
+    border: 1.5px solid rgba(212, 160, 82, 0.5);
     border-radius: 2px;
 }
 
@@ -532,7 +531,7 @@ select:focus {
     bottom: 100%;
     left: 50%;
     transform: translateX(-50%);
-    background: rgba(255, 255, 255, 0.97);
+    background: rgba(0, 0, 0, 0.95);
     color: var(--text-primary);
     padding: 0.5em 0.75em;
     border-radius: var(--border-radius);
@@ -555,10 +554,10 @@ select:focus {
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    border: 1.5px solid rgba(0, 0, 0, 0.2);
+    border: 1.5px solid hsla(0, 0%, 100%, 0.2);
     overflow: hidden;
     z-index: 5;
-    background: #eee;
+    background: #222;
 }
 
 /* Detail Panel */
@@ -627,7 +626,7 @@ select:focus {
     justify-content: space-between;
     padding: 0.375em 0;
     font-size: 0.8125rem;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+    border-bottom: 1px solid hsla(0, 0%, 100%, 0.05);
 }
 
 .detail-field-label {
@@ -664,22 +663,21 @@ select:focus {
 
 .detail-subtitle {
     font-size: 0.8125rem;
-    color: rgba(0, 0, 0, 0.65);
+    color: hsla(0, 0%, 100%, 0.7);
     margin-bottom: 1em;
     line-height: 1.4;
 }
 
 /* Map controls */
 .maplibregl-ctrl-group {
-    background: rgba(255, 255, 255, 0.9) !important;
+    background: rgba(0, 0, 0, 0.8) !important;
     border: var(--border-heavy) !important;
     backdrop-filter: blur(8px) !important;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1) !important;
 }
 
 .maplibregl-ctrl-group button {
     background-color: transparent !important;
-    border-color: rgba(0, 0, 0, 0.1) !important;
+    border-color: hsla(0, 0%, 100%, 0.1) !important;
 }
 
 .maplibregl-ctrl-group button + button {
@@ -691,11 +689,11 @@ select:focus {
 }
 
 .maplibregl-ctrl-group button .maplibregl-ctrl-icon {
-    filter: none;
+    filter: invert(1);
 }
 
 .maplibregl-ctrl-attrib {
-    background: rgba(255, 255, 255, 0.7) !important;
+    background: rgba(0, 0, 0, 0.6) !important;
     color: var(--text-tertiary) !important;
     font-size: 0.625rem !important;
 }
@@ -768,7 +766,7 @@ select:focus {
 }
 
 #table-search:focus {
-    border-color: rgba(0, 0, 0, 0.25);
+    border-color: hsla(0, 0%, 100%, 0.25);
 }
 
 #table-search::placeholder {
@@ -824,7 +822,7 @@ select:focus {
 }
 
 #data-table th {
-    background: rgba(0, 0, 0, 0.03);
+    background: rgba(255, 255, 255, 0.03);
     padding: 0.75em 0.625em;
     text-align: left;
     font-size: 0.6875rem;
@@ -867,7 +865,7 @@ select:focus {
     top: 100%;
     left: 50%;
     transform: translateX(-50%);
-    background: rgba(255, 255, 255, 0.97);
+    background: rgba(0, 0, 0, 0.95);
     color: var(--text-primary);
     padding: 0.5em 0.75em;
     border-radius: var(--border-radius);
@@ -895,8 +893,8 @@ select:focus {
 
 #data-table td {
     padding: 0.625em;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
-    color: rgba(0, 0, 0, 0.65);
+    border-bottom: 1px solid hsla(0, 0%, 100%, 0.05);
+    color: hsla(0, 0%, 100%, 0.7);
     vertical-align: top;
     line-height: 1.4;
 }
