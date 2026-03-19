@@ -65,11 +65,30 @@ function initMap() {
                     'carto-dark': {
                         type: 'raster',
                         tiles: [
-                            'https://a.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}@2x.png',
-                            'https://b.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}@2x.png'
+                            'https://a.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}@2x.png',
+                            'https://b.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}@2x.png'
                         ],
                         tileSize: 256,
                         attribution: '&copy; <a href="https://carto.com/">CARTO</a> &copy; <a href="https://www.openstreetmap.org/copyright">OSM</a>'
+                    },
+                    'country-labels': {
+                        type: 'geojson',
+                        data: {
+                            type: 'FeatureCollection',
+                            features: [
+                                { type: 'Feature', geometry: { type: 'Point', coordinates: [21.8, 39.5] }, properties: { name: 'Greece', large: true } },
+                                { type: 'Feature', geometry: { type: 'Point', coordinates: [29.0, 38.5] }, properties: { name: 'Turkey' } },
+                                { type: 'Feature', geometry: { type: 'Point', coordinates: [25.3, 42.7] }, properties: { name: 'Bulgaria' } },
+                                { type: 'Feature', geometry: { type: 'Point', coordinates: [20.1, 41.3] }, properties: { name: 'Albania' } },
+                                { type: 'Feature', geometry: { type: 'Point', coordinates: [21.7, 41.2] }, properties: { name: 'North Macedonia' } },
+                                { type: 'Feature', geometry: { type: 'Point', coordinates: [12.5, 42.5] }, properties: { name: 'Italy' } },
+                                { type: 'Feature', geometry: { type: 'Point', coordinates: [33.4, 35.1] }, properties: { name: 'Cyprus' } },
+                                { type: 'Feature', geometry: { type: 'Point', coordinates: [24.7, 35.2] }, properties: { name: 'Crete' } },
+                                { type: 'Feature', geometry: { type: 'Point', coordinates: [30.8, 33.5] }, properties: { name: 'Egypt' } },
+                                { type: 'Feature', geometry: { type: 'Point', coordinates: [35.5, 33.9] }, properties: { name: 'Lebanon' } },
+                                { type: 'Feature', geometry: { type: 'Point', coordinates: [36.3, 35.0] }, properties: { name: 'Syria' } }
+                            ]
+                        }
                     }
                 },
                 layers: [
@@ -79,6 +98,48 @@ function initMap() {
                         source: 'carto-dark',
                         minzoom: 0,
                         maxzoom: 20
+                    },
+                    {
+                        id: 'country-labels-layer',
+                        type: 'symbol',
+                        source: 'country-labels',
+                        filter: ['!=', ['get', 'large'], true],
+                        layout: {
+                            'text-field': ['get', 'name'],
+                            'text-font': ['Open Sans Regular'],
+                            'text-size': ['interpolate', ['linear'], ['zoom'], 3, 10, 6, 14, 9, 16],
+                            'text-transform': 'uppercase',
+                            'text-letter-spacing': 0.15,
+                            'text-max-width': 8,
+                            'text-allow-overlap': false,
+                            'text-padding': 10
+                        },
+                        paint: {
+                            'text-color': '#8a8a8a',
+                            'text-halo-color': 'rgba(0, 0, 0, 0.8)',
+                            'text-halo-width': 1.5
+                        }
+                    },
+                    {
+                        id: 'greece-label-layer',
+                        type: 'symbol',
+                        source: 'country-labels',
+                        filter: ['==', ['get', 'large'], true],
+                        layout: {
+                            'text-field': ['get', 'name'],
+                            'text-font': ['Open Sans Regular'],
+                            'text-size': ['interpolate', ['linear'], ['zoom'], 3, 20, 6, 28, 9, 32],
+                            'text-transform': 'uppercase',
+                            'text-letter-spacing': 0.15,
+                            'text-max-width': 8,
+                            'text-allow-overlap': false,
+                            'text-padding': 10
+                        },
+                        paint: {
+                            'text-color': '#8a8a8a',
+                            'text-halo-color': 'rgba(0, 0, 0, 0.8)',
+                            'text-halo-width': 1.5
+                        }
                     }
                 ],
                 glyphs: 'https://fonts.openmaptiles.org/{fontstack}/{range}.pbf'
