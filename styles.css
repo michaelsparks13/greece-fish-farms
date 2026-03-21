@@ -1039,6 +1039,13 @@ select:focus {
         bottom: 12px;
         font-size: 0.6875rem;
     }
+
+    /* Keep legend tooltips on-screen and readable on mobile */
+    .legend-info:hover::after {
+        left: 0;
+        transform: none;
+        background: rgba(0, 0, 0, 1);
+    }
 }
 
 /* Hidden utility */
