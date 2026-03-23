@@ -8645,8 +8645,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.023888889000091,
-          39.488333333000071
+          21.02388888900009,
+          39.48833333300007
         ]
       }
     },
@@ -8704,7 +8704,2327 @@
         "type": "Point",
         "coordinates": [
           21.456666667000036,
-          39.033055556000079
+          39.03305555600008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1603,
+        "site_id": "GR_00001",
+        "country": "Greece",
+        "owner_name": "ANAGNOSTOY IOANNIS",
+        "status": "Active",
+        "farm_type": "Salmonids",
+        "production": "Tanks/Raceways",
+        "producti_1": "Grow out for human consumption",
+        "purpose": "n/a",
+        "species_so": "Rainbow Trout",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "36",
+        "eurostatco": "TRR",
+        "eurospecie": "Salmons, trouts, smelts",
+        "eurospeci0": "Oncorhynchus mykiss (Rainbow trout)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.781388889000084,
+          38.896388889000036
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1604,
+        "site_id": "GR_00002",
+        "country": "Greece",
+        "owner_name": "ARTA AQUACULTURE S.A.",
+        "status": "Active",
+        "farm_type": "Diversified pond fish",
+        "production": "Closed systems (recirculation), Tanks/Raceways",
+        "producti_1": "Grow out for human consumption, Hatchery, Nursery, Other",
+        "purpose": "n/a",
+        "species_so": "Rainbow Trout, European Eel",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "36",
+        "eurostatco": "TRR",
+        "eurospecie": "Salmons, trouts, smelts",
+        "eurospeci0": "Oncorhynchus mykiss (Rainbow trout)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.97263055600007,
+          39.0718
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1605,
+        "site_id": "GR_00002",
+        "country": "Greece",
+        "owner_name": "ARTA AQUACULTURE S.A.",
+        "status": "Active",
+        "farm_type": "Diversified pond fish",
+        "production": "Closed systems (recirculation), Tanks/Raceways",
+        "producti_1": "Grow out for human consumption, Hatchery, Nursery, Other",
+        "purpose": "n/a",
+        "species_so": "Rainbow Trout, European Eel",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "23",
+        "eurostatco": "ELE",
+        "eurospecie": "River eels",
+        "eurospeci0": "Anguilla anguilla (European eel)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.97263055600007,
+          39.0718
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1606,
+        "site_id": "GR_00003",
+        "country": "Greece",
+        "owner_name": "ATHANASIOS DOUFLIAS",
+        "status": "Active",
+        "farm_type": "Salmonids",
+        "production": "Tanks/Raceways",
+        "producti_1": "Grow out for human consumption",
+        "purpose": "n/a",
+        "species_so": "Rainbow Trout",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "36",
+        "eurostatco": "TRR",
+        "eurospecie": "Salmons, trouts, smelts",
+        "eurospeci0": "Oncorhynchus mykiss (Rainbow trout)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.233472222000046,
+          40.50333333300006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1607,
+        "site_id": "GR_00004",
+        "country": "Greece",
+        "owner_name": "AURORA SALMON S.A.",
+        "status": "Active",
+        "farm_type": "Salmonids",
+        "production": "Tanks/Raceways",
+        "producti_1": "Grow out for human consumption, Hatchery, Nursery, Broodstock",
+        "purpose": "n/a",
+        "species_so": "Rainbow Trout, Coho Salmon",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "36",
+        "eurostatco": "TRR",
+        "eurospecie": "Salmons, trouts, smelts",
+        "eurospeci0": "Oncorhynchus mykiss (Rainbow trout)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.39375,
+          38.833888889000036
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1608,
+        "site_id": "GR_00004",
+        "country": "Greece",
+        "owner_name": "AURORA SALMON S.A.",
+        "status": "Active",
+        "farm_type": "Salmonids",
+        "production": "Tanks/Raceways",
+        "producti_1": "Grow out for human consumption, Hatchery, Nursery, Broodstock",
+        "purpose": "n/a",
+        "species_so": "Rainbow Trout, Coho Salmon",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "41",
+        "eurostatco": "F23",
+        "eurospecie": "Salmons, trouts, smelts",
+        "eurospeci0": "n/a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.39375,
+          38.833888889000036
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1609,
+        "site_id": "GR_00005",
+        "country": "Greece",
+        "owner_name": "B. GEITONAS & CO. L.P.",
+        "status": "Active",
+        "farm_type": "Diversified pond fish",
+        "production": "Tanks/Raceways",
+        "producti_1": "Grow out for human consumption, Other",
+        "purpose": "n/a",
+        "species_so": "European Eel, Flathead Mullet, Tilapia",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "23",
+        "eurostatco": "ELE",
+        "eurospecie": "River eels",
+        "eurospeci0": "Anguilla anguilla (European eel)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.967777778000084,
+          39.071666667000045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1610,
+        "site_id": "GR_00005",
+        "country": "Greece",
+        "owner_name": "B. GEITONAS & CO. L.P.",
+        "status": "Active",
+        "farm_type": "Diversified pond fish",
+        "production": "Tanks/Raceways",
+        "producti_1": "Grow out for human consumption, Other",
+        "purpose": "n/a",
+        "species_so": "European Eel, Flathead Mullet, Tilapia",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "35",
+        "eurostatco": "TLN",
+        "eurospecie": "Tilapias and other cichlids",
+        "eurospeci0": "Oreochromis niloticus (Nile tilapia)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.967777778000084,
+          39.071666667000045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1611,
+        "site_id": "GR_00005",
+        "country": "Greece",
+        "owner_name": "B. GEITONAS & CO. L.P.",
+        "status": "Active",
+        "farm_type": "Diversified pond fish",
+        "production": "Tanks/Raceways",
+        "producti_1": "Grow out for human consumption, Other",
+        "purpose": "n/a",
+        "species_so": "European Eel, Flathead Mullet, Tilapia",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "43",
+        "eurostatco": "F13",
+        "eurospecie": "Miscellaneous freshwater fishes",
+        "eurospeci0": "n/a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.967777778000084,
+          39.071666667000045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1612,
+        "site_id": "GR_00006",
+        "country": "Greece",
+        "owner_name": "BIOTROUT S.A.",
+        "status": "Active",
+        "farm_type": "Salmonids",
+        "production": "Tanks/Raceways",
+        "producti_1": "Grow out for human consumption, Hatchery, Nursery",
+        "purpose": "n/a",
+        "species_so": "Rainbow Trout",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "36",
+        "eurostatco": "TRR",
+        "eurospecie": "Salmons, trouts, smelts",
+        "eurospeci0": "Oncorhynchus mykiss (Rainbow trout)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.769444444000044,
+          39.17361111100007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1613,
+        "site_id": "GR_00007",
+        "country": "Greece",
+        "owner_name": "CHALIL IMPRAM KADRIE",
+        "status": "Active",
+        "farm_type": "Salmonids",
+        "production": "Tanks/Raceways",
+        "producti_1": "Grow out for human consumption",
+        "purpose": "n/a",
+        "species_so": "Rainbow Trout",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "36",
+        "eurostatco": "TRR",
+        "eurospecie": "Salmons, trouts, smelts",
+        "eurospeci0": "Oncorhynchus mykiss (Rainbow trout)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.633194444000083,
+          41.26527777800004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1614,
+        "site_id": "GR_00008",
+        "country": "Greece",
+        "owner_name": "CHOCHLAS AQUACULTURE S.A. (EUROTROUT S.A.)",
+        "status": "Active",
+        "farm_type": "Salmonids",
+        "production": "Tanks/Raceways",
+        "producti_1": "Grow out for human consumption, Hatchery, Nursery",
+        "purpose": "n/a",
+        "species_so": "Rainbow Trout",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "36",
+        "eurostatco": "TRR",
+        "eurospecie": "Salmons, trouts, smelts",
+        "eurospeci0": "Oncorhynchus mykiss (Rainbow trout)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.560555556000054,
+          39.2225
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1615,
+        "site_id": "GR_00009",
+        "country": "Greece",
+        "owner_name": "DANOS GEORGIOS",
+        "status": "Active",
+        "farm_type": "Salmonids",
+        "production": "Tanks/Raceways",
+        "producti_1": "Grow out for human consumption",
+        "purpose": "n/a",
+        "species_so": "Rainbow Trout",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "36",
+        "eurostatco": "TRR",
+        "eurospecie": "Salmons, trouts, smelts",
+        "eurospeci0": "Oncorhynchus mykiss (Rainbow trout)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.836477778000074,
+          39.40725277800004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1616,
+        "site_id": "GR_00010",
+        "country": "Greece",
+        "owner_name": "DELLIS GEORGIOS",
+        "status": "Active",
+        "farm_type": "Salmonids",
+        "production": "Tanks/Raceways",
+        "producti_1": "Grow out for human consumption, Nursery",
+        "purpose": "n/a",
+        "species_so": "Rainbow Trout",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "36",
+        "eurostatco": "TRR",
+        "eurospecie": "Salmons, trouts, smelts",
+        "eurospeci0": "Oncorhynchus mykiss (Rainbow trout)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.65505,
+          39.99253611100005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1617,
+        "site_id": "GR_00011",
+        "country": "Greece",
+        "owner_name": "DIMITRIOS BREZAS",
+        "status": "Active",
+        "farm_type": "Diversified pond fish",
+        "production": "Tanks/Raceways",
+        "producti_1": "Grow out for human consumption, Nursery",
+        "purpose": "n/a",
+        "species_so": "Flathead Mullet",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "43",
+        "eurostatco": "F13",
+        "eurospecie": "Miscellaneous freshwater fishes",
+        "eurospeci0": "n/a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.258333333000053,
+          37.972222222000084
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1618,
+        "site_id": "GR_00012",
+        "country": "Greece",
+        "owner_name": "EUROFARM-AQUACULTURE OF EPIRUS S.A.",
+        "status": "Active",
+        "farm_type": "Eel",
+        "production": "Closed systems (recirculation)",
+        "producti_1": "Grow out for human consumption, Other",
+        "purpose": "n/a",
+        "species_so": "European Eel",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "23",
+        "eurostatco": "ELE",
+        "eurospecie": "River eels",
+        "eurospeci0": "Anguilla anguilla (European eel)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.761833333000084,
+          39.07658611100004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1619,
+        "site_id": "GR_00013",
+        "country": "Greece",
+        "owner_name": "FISH FARM OF ATHAMANIA",
+        "status": "Active",
+        "farm_type": "Salmonids",
+        "production": "Tanks/Raceways",
+        "producti_1": "Grow out for human consumption, Hatchery, Nursery, Broodstock",
+        "purpose": "n/a",
+        "species_so": "Rainbow Trout",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "36",
+        "eurostatco": "TRR",
+        "eurospecie": "Salmons, trouts, smelts",
+        "eurospeci0": "Oncorhynchus mykiss (Rainbow trout)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.253472222000084,
+          39.52986111100006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1620,
+        "site_id": "GR_00014",
+        "country": "Greece",
+        "owner_name": "G. BERBERIDIS & GREEK STURGEONS S.A.",
+        "status": "Active",
+        "farm_type": "Diversified pond fish",
+        "production": "Tanks/Raceways",
+        "producti_1": "Grow out for human consumption, Hatchery, Nursery, Broodstock",
+        "purpose": "n/a",
+        "species_so": "Russian Sturgeon, Siberian Sturgeon, Beluga Sturgeon, Rainbow Trout",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "17",
+        "eurostatco": "APG",
+        "eurospecie": "Sturgeons, paddlefishes",
+        "eurospeci0": "Acipenser gueldenstaedtii (Danube sturgeon(=Osetr))"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.265555556000038,
+          41.06444444400006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1621,
+        "site_id": "GR_00014",
+        "country": "Greece",
+        "owner_name": "G. BERBERIDIS & GREEK STURGEONS S.A.",
+        "status": "Active",
+        "farm_type": "Diversified pond fish",
+        "production": "Tanks/Raceways",
+        "producti_1": "Grow out for human consumption, Hatchery, Nursery, Broodstock",
+        "purpose": "n/a",
+        "species_so": "Russian Sturgeon, Siberian Sturgeon, Beluga Sturgeon, Rainbow Trout",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "16",
+        "eurostatco": "APB",
+        "eurospecie": "Sturgeons, paddlefishes",
+        "eurospeci0": "Acipenser baerii (Siberian sturgeon)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.265555556000038,
+          41.06444444400006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1622,
+        "site_id": "GR_00014",
+        "country": "Greece",
+        "owner_name": "G. BERBERIDIS & GREEK STURGEONS S.A.",
+        "status": "Active",
+        "farm_type": "Diversified pond fish",
+        "production": "Tanks/Raceways",
+        "producti_1": "Grow out for human consumption, Hatchery, Nursery, Broodstock",
+        "purpose": "n/a",
+        "species_so": "Russian Sturgeon, Siberian Sturgeon, Beluga Sturgeon, Rainbow Trout",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "36",
+        "eurostatco": "TRR",
+        "eurospecie": "Salmons, trouts, smelts",
+        "eurospeci0": "Oncorhynchus mykiss (Rainbow trout)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.265555556000038,
+          41.06444444400006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1623,
+        "site_id": "GR_00014",
+        "country": "Greece",
+        "owner_name": "G. BERBERIDIS & GREEK STURGEONS S.A.",
+        "status": "Active",
+        "farm_type": "Diversified pond fish",
+        "production": "Tanks/Raceways",
+        "producti_1": "Grow out for human consumption, Hatchery, Nursery, Broodstock",
+        "purpose": "n/a",
+        "species_so": "Russian Sturgeon, Siberian Sturgeon, Beluga Sturgeon, Rainbow Trout",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "39",
+        "eurostatco": "F21",
+        "eurospecie": "Sturgeons, paddlefishes",
+        "eurospeci0": "n/a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.265555556000038,
+          41.06444444400006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1624,
+        "site_id": "GR_00015",
+        "country": "Greece",
+        "owner_name": "G. BERBERIDIS & GREEK STURGEONS S.A.",
+        "status": "Active",
+        "farm_type": "Carp",
+        "production": "Cages/Enclosures/Pens",
+        "producti_1": "Grow out for human consumption, Nursery",
+        "purpose": "n/a",
+        "species_so": "Common Carp",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "8",
+        "eurostatco": "FCP",
+        "eurospecie": "Carps, barbels and other cyprinids",
+        "eurospeci0": "Cyprinus carpio (Common carp)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.203941667000038,
+          41.35004444400005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1625,
+        "site_id": "GR_00016",
+        "country": "Greece",
+        "owner_name": "G. PANAGIOTOPOULOS - I. MPAKATSIAS G.P.",
+        "status": "Active",
+        "farm_type": "Salmonids",
+        "production": "Tanks/Raceways",
+        "producti_1": "Grow out for human consumption, Hatchery, Nursery, Put and take fisheries",
+        "purpose": "n/a",
+        "species_so": "Rainbow Trout",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "36",
+        "eurostatco": "TRR",
+        "eurospecie": "Salmons, trouts, smelts",
+        "eurospeci0": "Oncorhynchus mykiss (Rainbow trout)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.7375,
+          38.82958333300007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1626,
+        "site_id": "GR_00017",
+        "country": "Greece",
+        "owner_name": "G. PANAGIOTOPOULOS - I. MPAKATSIAS G.P.",
+        "status": "Active",
+        "farm_type": "Salmonids",
+        "production": "Cages/Enclosures/Pens",
+        "producti_1": "Grow out for human consumption",
+        "purpose": "n/a",
+        "species_so": "Rainbow Trout",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "36",
+        "eurostatco": "TRR",
+        "eurospecie": "Salmons, trouts, smelts",
+        "eurospeci0": "Oncorhynchus mykiss (Rainbow trout)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.526666667000086,
+          38.92777777800006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1627,
+        "site_id": "GR_00018",
+        "country": "Greece",
+        "owner_name": "GAKIS CHRISTOS",
+        "status": "Active",
+        "farm_type": "Salmonids",
+        "production": "Tanks/Raceways",
+        "producti_1": "Grow out for human consumption",
+        "purpose": "n/a",
+        "species_so": "Rainbow Trout",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "36",
+        "eurostatco": "TRR",
+        "eurospecie": "Salmons, trouts, smelts",
+        "eurospeci0": "Oncorhynchus mykiss (Rainbow trout)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.880555556000047,
+          39.31680555600008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1628,
+        "site_id": "GR_00019",
+        "country": "Greece",
+        "owner_name": "GEORGIOS THEODORAKELIS",
+        "status": "Active",
+        "farm_type": "Salmonids",
+        "production": "Tanks/Raceways",
+        "producti_1": "Grow out for human consumption, Hatchery, Nursery, Broodstock",
+        "purpose": "n/a",
+        "species_so": "Rainbow Trout",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "36",
+        "eurostatco": "TRR",
+        "eurospecie": "Salmons, trouts, smelts",
+        "eurospeci0": "Oncorhynchus mykiss (Rainbow trout)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.038055556000074,
+          41.29611111100007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1629,
+        "site_id": "GR_00020",
+        "country": "Greece",
+        "owner_name": "GOGOS STERGIOS",
+        "status": "Active",
+        "farm_type": "Salmonids",
+        "production": "Tanks/Raceways",
+        "producti_1": "Grow out for human consumption, Hatchery",
+        "purpose": "n/a",
+        "species_so": "Rainbow Trout",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "36",
+        "eurostatco": "TRR",
+        "eurospecie": "Salmons, trouts, smelts",
+        "eurospeci0": "Oncorhynchus mykiss (Rainbow trout)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.0225,
+          40.04036111100004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1630,
+        "site_id": "GR_00021",
+        "country": "Greece",
+        "owner_name": "HYDROBIOLOGICAL STATION OF ARTA",
+        "status": "Active",
+        "farm_type": "Diversified pond fish",
+        "production": "Tanks/Raceways",
+        "producti_1": "Hatchery, Nursery, Broodstock",
+        "purpose": "n/a",
+        "species_so": "Common Carp, Grass Carp, Silver Carp, Bighead Carp, Flathead Mullet",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "8",
+        "eurostatco": "FCP",
+        "eurospecie": "Carps, barbels and other cyprinids",
+        "eurospeci0": "Cyprinus carpio (Common carp)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9575,
+          39.06527777800005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1631,
+        "site_id": "GR_00021",
+        "country": "Greece",
+        "owner_name": "HYDROBIOLOGICAL STATION OF ARTA",
+        "status": "Active",
+        "farm_type": "Diversified pond fish",
+        "production": "Tanks/Raceways",
+        "producti_1": "Hatchery, Nursery, Broodstock",
+        "purpose": "n/a",
+        "species_so": "Common Carp, Grass Carp, Silver Carp, Bighead Carp, Flathead Mullet",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "7",
+        "eurostatco": "FCG",
+        "eurospecie": "Carps, barbels and other cyprinids",
+        "eurospeci0": "Ctenopharyngodon idellus (Grass carp(=White amur))"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9575,
+          39.06527777800005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1632,
+        "site_id": "GR_00021",
+        "country": "Greece",
+        "owner_name": "HYDROBIOLOGICAL STATION OF ARTA",
+        "status": "Active",
+        "farm_type": "Diversified pond fish",
+        "production": "Tanks/Raceways",
+        "producti_1": "Hatchery, Nursery, Broodstock",
+        "purpose": "n/a",
+        "species_so": "Common Carp, Grass Carp, Silver Carp, Bighead Carp, Flathead Mullet",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "10",
+        "eurostatco": "SVC",
+        "eurospecie": "Carps, barbels and other cyprinids",
+        "eurospeci0": "Hypophthalmichthys molitrix (Silver carp)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9575,
+          39.06527777800005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1633,
+        "site_id": "GR_00021",
+        "country": "Greece",
+        "owner_name": "HYDROBIOLOGICAL STATION OF ARTA",
+        "status": "Active",
+        "farm_type": "Diversified pond fish",
+        "production": "Tanks/Raceways",
+        "producti_1": "Hatchery, Nursery, Broodstock",
+        "purpose": "n/a",
+        "species_so": "Common Carp, Grass Carp, Silver Carp, Bighead Carp, Flathead Mullet",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "2",
+        "eurostatco": "BIC",
+        "eurospecie": "Carps, barbels and other cyprinids",
+        "eurospeci0": "Hypophthalmichthys nobilis (Bighead carp)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9575,
+          39.06527777800005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1634,
+        "site_id": "GR_00021",
+        "country": "Greece",
+        "owner_name": "HYDROBIOLOGICAL STATION OF ARTA",
+        "status": "Active",
+        "farm_type": "Diversified pond fish",
+        "production": "Tanks/Raceways",
+        "producti_1": "Hatchery, Nursery, Broodstock",
+        "purpose": "n/a",
+        "species_so": "Common Carp, Grass Carp, Silver Carp, Bighead Carp, Flathead Mullet",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "43",
+        "eurostatco": "F13",
+        "eurospecie": "Miscellaneous freshwater fishes",
+        "eurospeci0": "n/a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9575,
+          39.06527777800005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1635,
+        "site_id": "GR_00022",
+        "country": "Greece",
+        "owner_name": "I. MORFIDIS",
+        "status": "Active",
+        "farm_type": "Salmonids",
+        "production": "Tanks/Raceways",
+        "producti_1": "Nursery, Broodstock",
+        "purpose": "n/a",
+        "species_so": "Rainbow Trout",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "36",
+        "eurostatco": "TRR",
+        "eurospecie": "Salmons, trouts, smelts",
+        "eurospeci0": "Oncorhynchus mykiss (Rainbow trout)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.23342222200006,
+          40.536733333000086
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1636,
+        "site_id": "GR_00023",
+        "country": "Greece",
+        "owner_name": "IOANNINA FISH BREEDING STATION",
+        "status": "Active",
+        "farm_type": "Salmonids",
+        "production": "Tanks/Raceways",
+        "producti_1": "Hatchery, Nursery, Broodstock",
+        "purpose": "n/a",
+        "species_so": "Rainbow Trout",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "36",
+        "eurostatco": "TRR",
+        "eurospecie": "Salmons, trouts, smelts",
+        "eurospeci0": "Oncorhynchus mykiss (Rainbow trout)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.84503333300006,
+          39.429066667000086
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1637,
+        "site_id": "GR_00024",
+        "country": "Greece",
+        "owner_name": "KARAMANOY GEORGIA",
+        "status": "Active",
+        "farm_type": "Salmonids",
+        "production": "Tanks/Raceways",
+        "producti_1": "Grow out for human consumption",
+        "purpose": "n/a",
+        "species_so": "Rainbow Trout",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "36",
+        "eurostatco": "TRR",
+        "eurospecie": "Salmons, trouts, smelts",
+        "eurospeci0": "Oncorhynchus mykiss (Rainbow trout)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.161111111000082,
+          37.93388888900006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1638,
+        "site_id": "GR_00025",
+        "country": "Greece",
+        "owner_name": "KARAMANOY GEORGIA",
+        "status": "Active",
+        "farm_type": "Salmonids",
+        "production": "Tanks/Raceways",
+        "producti_1": "Grow out for human consumption, Nursery",
+        "purpose": "n/a",
+        "species_so": "Rainbow Trout",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "36",
+        "eurostatco": "TRR",
+        "eurospecie": "Salmons, trouts, smelts",
+        "eurospeci0": "Oncorhynchus mykiss (Rainbow trout)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.15222222200009,
+          37.92388888900007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1639,
+        "site_id": "GR_00026",
+        "country": "Greece",
+        "owner_name": "KARATZENIS VASILEIOS",
+        "status": "Active",
+        "farm_type": "Salmonids",
+        "production": "Tanks/Raceways",
+        "producti_1": "Grow out for human consumption, Hatchery, Nursery",
+        "purpose": "n/a",
+        "species_so": "Rainbow Trout",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "36",
+        "eurostatco": "TRR",
+        "eurospecie": "Salmons, trouts, smelts",
+        "eurospeci0": "Oncorhynchus mykiss (Rainbow trout)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.84251944400006,
+          39.4184
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1640,
+        "site_id": "GR_00027",
+        "country": "Greece",
+        "owner_name": "KELESIDIS DIMITRIOS - KELESIDIS STYLIANOS",
+        "status": "Active",
+        "farm_type": "Salmonids",
+        "production": "Tanks/Raceways",
+        "producti_1": "Grow out for human consumption, Hatchery, Nursery",
+        "purpose": "n/a",
+        "species_so": "Rainbow Trout",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "36",
+        "eurostatco": "TRR",
+        "eurospecie": "Salmons, trouts, smelts",
+        "eurospeci0": "Oncorhynchus mykiss (Rainbow trout)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.1825,
+          40.47722222200008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1641,
+        "site_id": "GR_00028",
+        "country": "Greece",
+        "owner_name": "KIRATZI OSMAN TOY NOYRI & TSAOYS ISMET TOY MOYSTAFA",
+        "status": "Active",
+        "farm_type": "Salmonids",
+        "production": "Tanks/Raceways",
+        "producti_1": "Grow out for human consumption",
+        "purpose": "n/a",
+        "species_so": "Rainbow Trout",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "36",
+        "eurostatco": "TRR",
+        "eurospecie": "Salmons, trouts, smelts",
+        "eurospeci0": "Oncorhynchus mykiss (Rainbow trout)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.812777778000054,
+          41.26638888900004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1642,
+        "site_id": "GR_00029",
+        "country": "Greece",
+        "owner_name": "KOLAKES THOMAS",
+        "status": "Active",
+        "farm_type": "Salmonids",
+        "production": "Tanks/Raceways",
+        "producti_1": "Grow out for human consumption",
+        "purpose": "n/a",
+        "species_so": "Rainbow Trout",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "36",
+        "eurostatco": "TRR",
+        "eurospecie": "Salmons, trouts, smelts",
+        "eurospeci0": "Oncorhynchus mykiss (Rainbow trout)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.658961111000053,
+          40.00961111100008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1643,
+        "site_id": "GR_00030",
+        "country": "Greece",
+        "owner_name": "KOLIOS SOTIRIOS",
+        "status": "Active",
+        "farm_type": "Salmonids",
+        "production": "Tanks/Raceways",
+        "producti_1": "Grow out for human consumption",
+        "purpose": "n/a",
+        "species_so": "Rainbow Trout",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "36",
+        "eurostatco": "TRR",
+        "eurospecie": "Salmons, trouts, smelts",
+        "eurospeci0": "Oncorhynchus mykiss (Rainbow trout)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.83435,
+          39.403952778000075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1644,
+        "site_id": "GR_00031",
+        "country": "Greece",
+        "owner_name": "KONSTANTINOS V. RIGOGIANNIS",
+        "status": "Active",
+        "farm_type": "Salmonids",
+        "production": "Tanks/Raceways",
+        "producti_1": "Grow out for human consumption, Hatchery, Nursery",
+        "purpose": "n/a",
+        "species_so": "Rainbow Trout",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "36",
+        "eurostatco": "TRR",
+        "eurospecie": "Salmons, trouts, smelts",
+        "eurospeci0": "Oncorhynchus mykiss (Rainbow trout)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.15361111100009,
+          37.92722222200007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1645,
+        "site_id": "GR_00032",
+        "country": "Greece",
+        "owner_name": "LADIAS CHRISTOS, SICHLIMIRIS ALEXANDROS AND GIANNAKOY POLYXENI",
+        "status": "Active",
+        "farm_type": "Salmonids",
+        "production": "Tanks/Raceways",
+        "producti_1": "Grow out for human consumption, Hatchery, Nursery",
+        "purpose": "n/a",
+        "species_so": "Rainbow Trout",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "36",
+        "eurostatco": "TRR",
+        "eurospecie": "Salmons, trouts, smelts",
+        "eurospeci0": "Oncorhynchus mykiss (Rainbow trout)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.659580556000037,
+          39.98715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1646,
+        "site_id": "GR_00033",
+        "country": "Greece",
+        "owner_name": "LAKY S.A.",
+        "status": "Active",
+        "farm_type": "Diversified pond fish",
+        "production": "Closed systems (recirculation), Ponds, Tanks/Raceways",
+        "producti_1": "Grow out for human consumption, Hatchery, Nursery",
+        "purpose": "n/a",
+        "species_so": "Russian Sturgeon, Siberian Sturgeon, European Eel, Common Carp, Wels Catfish",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "17",
+        "eurostatco": "APG",
+        "eurospecie": "Sturgeons, paddlefishes",
+        "eurospeci0": "Acipenser gueldenstaedtii (Danube sturgeon(=Osetr))"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.96426388900005,
+          39.060986111000034
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1647,
+        "site_id": "GR_00033",
+        "country": "Greece",
+        "owner_name": "LAKY S.A.",
+        "status": "Active",
+        "farm_type": "Diversified pond fish",
+        "production": "Closed systems (recirculation), Ponds, Tanks/Raceways",
+        "producti_1": "Grow out for human consumption, Hatchery, Nursery",
+        "purpose": "n/a",
+        "species_so": "Russian Sturgeon, Siberian Sturgeon, European Eel, Common Carp, Wels Catfish",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "16",
+        "eurostatco": "APB",
+        "eurospecie": "Sturgeons, paddlefishes",
+        "eurospeci0": "Acipenser baerii (Siberian sturgeon)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.96426388900005,
+          39.060986111000034
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1648,
+        "site_id": "GR_00033",
+        "country": "Greece",
+        "owner_name": "LAKY S.A.",
+        "status": "Active",
+        "farm_type": "Diversified pond fish",
+        "production": "Closed systems (recirculation), Ponds, Tanks/Raceways",
+        "producti_1": "Grow out for human consumption, Hatchery, Nursery",
+        "purpose": "n/a",
+        "species_so": "Russian Sturgeon, Siberian Sturgeon, European Eel, Common Carp, Wels Catfish",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "23",
+        "eurostatco": "ELE",
+        "eurospecie": "River eels",
+        "eurospeci0": "Anguilla anguilla (European eel)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.96426388900005,
+          39.060986111000034
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1649,
+        "site_id": "GR_00033",
+        "country": "Greece",
+        "owner_name": "LAKY S.A.",
+        "status": "Active",
+        "farm_type": "Diversified pond fish",
+        "production": "Closed systems (recirculation), Ponds, Tanks/Raceways",
+        "producti_1": "Grow out for human consumption, Hatchery, Nursery",
+        "purpose": "n/a",
+        "species_so": "Russian Sturgeon, Siberian Sturgeon, European Eel, Common Carp, Wels Catfish",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "8",
+        "eurostatco": "FCP",
+        "eurospecie": "Carps, barbels and other cyprinids",
+        "eurospeci0": "Cyprinus carpio (Common carp)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.96426388900005,
+          39.060986111000034
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1650,
+        "site_id": "GR_00033",
+        "country": "Greece",
+        "owner_name": "LAKY S.A.",
+        "status": "Active",
+        "farm_type": "Diversified pond fish",
+        "production": "Closed systems (recirculation), Ponds, Tanks/Raceways",
+        "producti_1": "Grow out for human consumption, Hatchery, Nursery",
+        "purpose": "n/a",
+        "species_so": "Russian Sturgeon, Siberian Sturgeon, European Eel, Common Carp, Wels Catfish",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "33",
+        "eurostatco": "SOM",
+        "eurospecie": "Miscellaneous freshwater fishes",
+        "eurospeci0": "Silurus glanis (Wels(=Som) catfish)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.96426388900005,
+          39.060986111000034
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1651,
+        "site_id": "GR_00034",
+        "country": "Greece",
+        "owner_name": "LIOURIS ALEKSANDROS",
+        "status": "Active",
+        "farm_type": "Salmonids",
+        "production": "Tanks/Raceways",
+        "producti_1": "Grow out for human consumption",
+        "purpose": "n/a",
+        "species_so": "Rainbow Trout",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "36",
+        "eurostatco": "TRR",
+        "eurospecie": "Salmons, trouts, smelts",
+        "eurospeci0": "Oncorhynchus mykiss (Rainbow trout)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.478888889000075,
+          39.72944444400008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1652,
+        "site_id": "GR_00035",
+        "country": "Greece",
+        "owner_name": "LIOURIS VASILEIOS",
+        "status": "Active",
+        "farm_type": "Salmonids",
+        "production": "Tanks/Raceways",
+        "producti_1": "Grow out for human consumption",
+        "purpose": "n/a",
+        "species_so": "Rainbow Trout",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "36",
+        "eurostatco": "TRR",
+        "eurospecie": "Salmons, trouts, smelts",
+        "eurospeci0": "Oncorhynchus mykiss (Rainbow trout)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.47847222200005,
+          39.72847222200005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1653,
+        "site_id": "GR_00036",
+        "country": "Greece",
+        "owner_name": "MANTHOS CHARILAOS",
+        "status": "Active",
+        "farm_type": "Salmonids",
+        "production": "Tanks/Raceways",
+        "producti_1": "Grow out for human consumption, Hatchery, Nursery",
+        "purpose": "n/a",
+        "species_so": "Rainbow Trout",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "36",
+        "eurostatco": "TRR",
+        "eurospecie": "Salmons, trouts, smelts",
+        "eurospeci0": "Oncorhynchus mykiss (Rainbow trout)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.84246111100009,
+          39.41374166700007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1654,
+        "site_id": "GR_00037",
+        "country": "Greece",
+        "owner_name": "MUNICIPAL ENTERPRISE OF IOANNINA LAKE S.A.",
+        "status": "Active",
+        "farm_type": "Diversified pond fish",
+        "production": "Closed systems (recirculation), Ponds, Tanks/Raceways",
+        "producti_1": "Hatchery, Nursery, Broodstock",
+        "purpose": "n/a",
+        "species_so": "Common Carp, Wels Catfish, Flathead Mullet",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "8",
+        "eurostatco": "FCP",
+        "eurospecie": "Carps, barbels and other cyprinids",
+        "eurospeci0": "Cyprinus carpio (Common carp)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.875122222000073,
+          39.636469444000056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1655,
+        "site_id": "GR_00037",
+        "country": "Greece",
+        "owner_name": "MUNICIPAL ENTERPRISE OF IOANNINA LAKE S.A.",
+        "status": "Active",
+        "farm_type": "Diversified pond fish",
+        "production": "Closed systems (recirculation), Ponds, Tanks/Raceways",
+        "producti_1": "Hatchery, Nursery, Broodstock",
+        "purpose": "n/a",
+        "species_so": "Common Carp, Wels Catfish, Flathead Mullet",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "33",
+        "eurostatco": "SOM",
+        "eurospecie": "Miscellaneous freshwater fishes",
+        "eurospeci0": "Silurus glanis (Wels(=Som) catfish)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.875122222000073,
+          39.636469444000056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1656,
+        "site_id": "GR_00037",
+        "country": "Greece",
+        "owner_name": "MUNICIPAL ENTERPRISE OF IOANNINA LAKE S.A.",
+        "status": "Active",
+        "farm_type": "Diversified pond fish",
+        "production": "Closed systems (recirculation), Ponds, Tanks/Raceways",
+        "producti_1": "Hatchery, Nursery, Broodstock",
+        "purpose": "n/a",
+        "species_so": "Common Carp, Wels Catfish, Flathead Mullet",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "43",
+        "eurostatco": "F13",
+        "eurospecie": "Miscellaneous freshwater fishes",
+        "eurospeci0": "n/a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.875122222000073,
+          39.636469444000056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1657,
+        "site_id": "GR_00038",
+        "country": "Greece",
+        "owner_name": "NANOS ANASTASIOS",
+        "status": "Active",
+        "farm_type": "Salmonids",
+        "production": "Tanks/Raceways",
+        "producti_1": "Grow out for human consumption",
+        "purpose": "n/a",
+        "species_so": "Rainbow Trout",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "36",
+        "eurostatco": "TRR",
+        "eurospecie": "Salmons, trouts, smelts",
+        "eurospeci0": "Oncorhynchus mykiss (Rainbow trout)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.845,
+          39.430444444000045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1658,
+        "site_id": "GR_00039",
+        "country": "Greece",
+        "owner_name": "NATURAL AMVRAKIKOS FISHFARM LTD.",
+        "status": "Active",
+        "farm_type": "Diversified pond fish",
+        "production": "Ponds, Tanks/Raceways",
+        "producti_1": "Grow out for human consumption, Hatchery",
+        "purpose": "n/a",
+        "species_so": "Common Carp, Wels Catfish, Flathead Mullet",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "8",
+        "eurostatco": "FCP",
+        "eurospecie": "Carps, barbels and other cyprinids",
+        "eurospeci0": "Cyprinus carpio (Common carp)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.956908333000058,
+          39.054252778000034
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1659,
+        "site_id": "GR_00039",
+        "country": "Greece",
+        "owner_name": "NATURAL AMVRAKIKOS FISHFARM LTD.",
+        "status": "Active",
+        "farm_type": "Diversified pond fish",
+        "production": "Ponds, Tanks/Raceways",
+        "producti_1": "Grow out for human consumption, Hatchery",
+        "purpose": "n/a",
+        "species_so": "Common Carp, Wels Catfish, Flathead Mullet",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "33",
+        "eurostatco": "SOM",
+        "eurospecie": "Miscellaneous freshwater fishes",
+        "eurospeci0": "Silurus glanis (Wels(=Som) catfish)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.956908333000058,
+          39.054252778000034
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1660,
+        "site_id": "GR_00039",
+        "country": "Greece",
+        "owner_name": "NATURAL AMVRAKIKOS FISHFARM LTD.",
+        "status": "Active",
+        "farm_type": "Diversified pond fish",
+        "production": "Ponds, Tanks/Raceways",
+        "producti_1": "Grow out for human consumption, Hatchery",
+        "purpose": "n/a",
+        "species_so": "Common Carp, Wels Catfish, Flathead Mullet",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "43",
+        "eurostatco": "F13",
+        "eurospecie": "Miscellaneous freshwater fishes",
+        "eurospeci0": "n/a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.956908333000058,
+          39.054252778000034
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1661,
+        "site_id": "GR_00040",
+        "country": "Greece",
+        "owner_name": "NIKOPOULOS NIKOLAOS",
+        "status": "Active",
+        "farm_type": "Salmonids",
+        "production": "Tanks/Raceways",
+        "producti_1": "Grow out for human consumption",
+        "purpose": "n/a",
+        "species_so": "Rainbow Trout",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "36",
+        "eurostatco": "TRR",
+        "eurospecie": "Salmons, trouts, smelts",
+        "eurospeci0": "Oncorhynchus mykiss (Rainbow trout)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.841602778000038,
+          39.41244722200008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1662,
+        "site_id": "GR_00041",
+        "country": "Greece",
+        "owner_name": "NTELAS DIMITRIOS",
+        "status": "Active",
+        "farm_type": "Salmonids",
+        "production": "Tanks/Raceways",
+        "producti_1": "Grow out for human consumption",
+        "purpose": "n/a",
+        "species_so": "Rainbow Trout",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "36",
+        "eurostatco": "TRR",
+        "eurospecie": "Salmons, trouts, smelts",
+        "eurospeci0": "Oncorhynchus mykiss (Rainbow trout)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.611761111000078,
+          39.886983333000046
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1663,
+        "site_id": "GR_00042",
+        "country": "Greece",
+        "owner_name": "OIKONOMOY BROS S.A.",
+        "status": "Active",
+        "farm_type": "Salmonids",
+        "production": "Tanks/Raceways",
+        "producti_1": "Grow out for human consumption",
+        "purpose": "n/a",
+        "species_so": "Rainbow Trout",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "36",
+        "eurostatco": "TRR",
+        "eurospecie": "Salmons, trouts, smelts",
+        "eurospeci0": "Oncorhynchus mykiss (Rainbow trout)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.84525,
+          39.43216666700005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1664,
+        "site_id": "GR_00043",
+        "country": "Greece",
+        "owner_name": "PAPAGEORGIOY CHARALAMPOS",
+        "status": "Active",
+        "farm_type": "Salmonids",
+        "production": "Tanks/Raceways",
+        "producti_1": "Grow out for human consumption",
+        "purpose": "n/a",
+        "species_so": "Rainbow Trout",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "36",
+        "eurostatco": "TRR",
+        "eurospecie": "Salmons, trouts, smelts",
+        "eurospeci0": "Oncorhynchus mykiss (Rainbow trout)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.932583333000082,
+          37.69472222200005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1665,
+        "site_id": "GR_00044",
+        "country": "Greece",
+        "owner_name": "PAPAIOANNOU CHRISTOS",
+        "status": "Active",
+        "farm_type": "Salmonids",
+        "production": "Tanks/Raceways",
+        "producti_1": "Grow out for human consumption",
+        "purpose": "n/a",
+        "species_so": "Rainbow Trout",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "36",
+        "eurostatco": "TRR",
+        "eurospecie": "Salmons, trouts, smelts",
+        "eurospeci0": "Oncorhynchus mykiss (Rainbow trout)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.42069444400005,
+          39.768055556000036
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1666,
+        "site_id": "GR_00045",
+        "country": "Greece",
+        "owner_name": "PAPAROUNAS THOMAS",
+        "status": "Active",
+        "farm_type": "Salmonids",
+        "production": "Tanks/Raceways",
+        "producti_1": "Grow out for human consumption",
+        "purpose": "n/a",
+        "species_so": "Rainbow Trout",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "36",
+        "eurostatco": "TRR",
+        "eurospecie": "Salmons, trouts, smelts",
+        "eurospeci0": "Oncorhynchus mykiss (Rainbow trout)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.009305556000072,
+          39.826936111000066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1667,
+        "site_id": "GR_00046",
+        "country": "Greece",
+        "owner_name": "PAPAS NIKOLAOS",
+        "status": "Active",
+        "farm_type": "Salmonids",
+        "production": "Tanks/Raceways",
+        "producti_1": "Grow out for human consumption, Hatchery, Nursery",
+        "purpose": "n/a",
+        "species_so": "Rainbow Trout",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "36",
+        "eurostatco": "TRR",
+        "eurospecie": "Salmons, trouts, smelts",
+        "eurospeci0": "Oncorhynchus mykiss (Rainbow trout)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.840691667000044,
+          39.41169722200004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1668,
+        "site_id": "GR_00047",
+        "country": "Greece",
+        "owner_name": "PEKAM S.A.",
+        "status": "Active",
+        "farm_type": "Salmonids",
+        "production": "Tanks/Raceways",
+        "producti_1": "Grow out for human consumption",
+        "purpose": "n/a",
+        "species_so": "Rainbow Trout",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "36",
+        "eurostatco": "TRR",
+        "eurospecie": "Salmons, trouts, smelts",
+        "eurospeci0": "Oncorhynchus mykiss (Rainbow trout)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.43833333300006,
+          41.38055555600005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1669,
+        "site_id": "GR_00048",
+        "country": "Greece",
+        "owner_name": "PETROU VASILEIOS TOU CHARALAMPOU",
+        "status": "Active",
+        "farm_type": "Salmonids",
+        "production": "Tanks/Raceways",
+        "producti_1": "Grow out for human consumption",
+        "purpose": "n/a",
+        "species_so": "Rainbow Trout",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "36",
+        "eurostatco": "TRR",
+        "eurospecie": "Salmons, trouts, smelts",
+        "eurospeci0": "Oncorhynchus mykiss (Rainbow trout)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.77277777800009,
+          39.17222222200007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1670,
+        "site_id": "GR_00049",
+        "country": "Greece",
+        "owner_name": "PIGES SEREMETAKI - RIGOGIANNIS PANAGIOTIS",
+        "status": "Active",
+        "farm_type": "Salmonids",
+        "production": "Tanks/Raceways",
+        "producti_1": "Grow out for human consumption, Hatchery, Nursery",
+        "purpose": "n/a",
+        "species_so": "Rainbow Trout",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "36",
+        "eurostatco": "TRR",
+        "eurospecie": "Salmons, trouts, smelts",
+        "eurospeci0": "Oncorhynchus mykiss (Rainbow trout)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.148458333000065,
+          37.92281944400008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1671,
+        "site_id": "GR_00050",
+        "country": "Greece",
+        "owner_name": "PYRROS ZIOGAS",
+        "status": "Active",
+        "farm_type": "Salmonids",
+        "production": "Tanks/Raceways",
+        "producti_1": "Grow out for human consumption",
+        "purpose": "n/a",
+        "species_so": "Rainbow Trout",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "36",
+        "eurostatco": "TRR",
+        "eurospecie": "Salmons, trouts, smelts",
+        "eurospeci0": "Oncorhynchus mykiss (Rainbow trout)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.698888889000045,
+          39.41944444400008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1672,
+        "site_id": "GR_00051",
+        "country": "Greece",
+        "owner_name": "SINANIS SOTIRIOS",
+        "status": "Active",
+        "farm_type": "Salmonids",
+        "production": "Tanks/Raceways",
+        "producti_1": "Grow out for human consumption",
+        "purpose": "n/a",
+        "species_so": "Rainbow Trout",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "36",
+        "eurostatco": "TRR",
+        "eurospecie": "Salmons, trouts, smelts",
+        "eurospeci0": "Oncorhynchus mykiss (Rainbow trout)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.23366111100006,
+          40.50333611100007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1673,
+        "site_id": "GR_00052",
+        "country": "Greece",
+        "owner_name": "SIVAS CHRONIS",
+        "status": "Active",
+        "farm_type": "Salmonids",
+        "production": "Tanks/Raceways",
+        "producti_1": "Grow out for human consumption",
+        "purpose": "n/a",
+        "species_so": "Rainbow Trout",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "36",
+        "eurostatco": "TRR",
+        "eurospecie": "Salmons, trouts, smelts",
+        "eurospeci0": "Oncorhynchus mykiss (Rainbow trout)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.658333333000087,
+          40.00888888900005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1674,
+        "site_id": "GR_00053",
+        "country": "Greece",
+        "owner_name": "SOUFLERIS KONSTANTINOS",
+        "status": "Active",
+        "farm_type": "Salmonids",
+        "production": "Tanks/Raceways",
+        "producti_1": "Grow out for human consumption, Nursery",
+        "purpose": "n/a",
+        "species_so": "Rainbow Trout",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "36",
+        "eurostatco": "TRR",
+        "eurospecie": "Salmons, trouts, smelts",
+        "eurospeci0": "Oncorhynchus mykiss (Rainbow trout)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.24388888900006,
+          41.47694444400008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1675,
+        "site_id": "GR_00054",
+        "country": "Greece",
+        "owner_name": "TAKTIKOY PANAGIOTA",
+        "status": "Active",
+        "farm_type": "Salmonids",
+        "production": "Tanks/Raceways",
+        "producti_1": "Grow out for human consumption, Nursery",
+        "purpose": "n/a",
+        "species_so": "Rainbow Trout",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "36",
+        "eurostatco": "TRR",
+        "eurospecie": "Salmons, trouts, smelts",
+        "eurospeci0": "Oncorhynchus mykiss (Rainbow trout)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.888472222000075,
+          37.870555556000056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1676,
+        "site_id": "GR_00055",
+        "country": "Greece",
+        "owner_name": "TITHIS G.P.",
+        "status": "Active",
+        "farm_type": "Other",
+        "production": "Other",
+        "producti_1": "Grow out for human consumption, Put and take fisheries",
+        "purpose": "n/a",
+        "species_so": "European Eel, Mediterranean Marine Fish, Blue Crab, Flathead Mullet",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "23",
+        "eurostatco": "ELE",
+        "eurospecie": "River eels",
+        "eurospeci0": "Anguilla anguilla (European eel)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.664888889000053,
+          39.972222222000084
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1677,
+        "site_id": "GR_00055",
+        "country": "Greece",
+        "owner_name": "TITHIS G.P.",
+        "status": "Active",
+        "farm_type": "Other",
+        "production": "Other",
+        "producti_1": "Grow out for human consumption, Put and take fisheries",
+        "purpose": "n/a",
+        "species_so": "European Eel, Mediterranean Marine Fish, Blue Crab, Flathead Mullet",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "0",
+        "eurostatco": "n/a",
+        "eurospecie": "n/a",
+        "eurospeci0": "n/a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.664888889000053,
+          39.972222222000084
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1678,
+        "site_id": "GR_00055",
+        "country": "Greece",
+        "owner_name": "TITHIS G.P.",
+        "status": "Active",
+        "farm_type": "Other",
+        "production": "Other",
+        "producti_1": "Grow out for human consumption, Put and take fisheries",
+        "purpose": "n/a",
+        "species_so": "European Eel, Mediterranean Marine Fish, Blue Crab, Flathead Mullet",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "43",
+        "eurostatco": "F13",
+        "eurospecie": "Miscellaneous freshwater fishes",
+        "eurospeci0": "n/a"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.664888889000053,
+          39.972222222000084
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1679,
+        "site_id": "GR_00056",
+        "country": "Greece",
+        "owner_name": "TSIALIOS CHRISTOS & CO  L.P.",
+        "status": "Active",
+        "farm_type": "Salmonids",
+        "production": "Tanks/Raceways",
+        "producti_1": "Grow out for human consumption",
+        "purpose": "n/a",
+        "species_so": "Rainbow Trout",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "36",
+        "eurostatco": "TRR",
+        "eurospecie": "Salmons, trouts, smelts",
+        "eurospeci0": "Oncorhynchus mykiss (Rainbow trout)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.59416666700008,
+          39.73541666700004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1680,
+        "site_id": "GR_00057",
+        "country": "Greece",
+        "owner_name": "TSIALIOS CHRISTOS & CO L.P.",
+        "status": "Active",
+        "farm_type": "Salmonids",
+        "production": "Tanks/Raceways",
+        "producti_1": "Grow out for human consumption",
+        "purpose": "n/a",
+        "species_so": "Rainbow Trout",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "36",
+        "eurostatco": "TRR",
+        "eurospecie": "Salmons, trouts, smelts",
+        "eurospeci0": "Oncorhynchus mykiss (Rainbow trout)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.844944444000078,
+          39.43068333300005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1681,
+        "site_id": "GR_00058",
+        "country": "Greece",
+        "owner_name": "TSIALOS VASILEIOS & KONSTANTINOS G.P.",
+        "status": "Active",
+        "farm_type": "Salmonids",
+        "production": "Tanks/Raceways",
+        "producti_1": "Grow out for human consumption",
+        "purpose": "n/a",
+        "species_so": "Rainbow Trout",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "36",
+        "eurostatco": "TRR",
+        "eurospecie": "Salmons, trouts, smelts",
+        "eurospeci0": "Oncorhynchus mykiss (Rainbow trout)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.843152778000047,
+          39.425
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1682,
+        "site_id": "GR_00059",
+        "country": "Greece",
+        "owner_name": "VAGGELIS IOANNIS",
+        "status": "Active",
+        "farm_type": "Salmonids",
+        "production": "Tanks/Raceways",
+        "producti_1": "Grow out for human consumption, Hatchery, Nursery",
+        "purpose": "n/a",
+        "species_so": "Rainbow Trout",
+        "point_info": "Original",
+        "coast_dist": 0,
+        "position_c": "Inland",
+        "species_id": "36",
+        "eurostatco": "TRR",
+        "eurospecie": "Salmons, trouts, smelts",
+        "eurospeci0": "Oncorhynchus mykiss (Rainbow trout)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.85664444400004,
+          39.393652778000046
         ]
       }
     }
