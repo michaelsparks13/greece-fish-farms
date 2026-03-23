@@ -8620,6 +8620,93 @@
           39.972222222000084
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1348,
+        "site_id": "GR_0069",
+        "country": "Greece",
+        "owner_name": "Avramar Aquaculture S.A.",
+        "status": "Active",
+        "farm_type": "Seabass-seabream and other coastal fish",
+        "production": "Sea cages",
+        "producti_1": "Grow out for human consumption",
+        "purpose": "n.a.",
+        "species_so": "Mediterranean marine fish",
+        "point_info": "Original",
+        "coast_dist": 45120.0765077,
+        "position_c": "Within the coastline",
+        "species_id": "15",
+        "eurostatco": "F33",
+        "eurospecie": "Miscellaneous coastal fishes",
+        "eurospeci0": "n.a."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.023888889000091,
+          39.488333333000071
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1476,
+        "site_id": "GR_0283",
+        "country": "Greece",
+        "owner_name": "Petala Bros S.A.",
+        "status": "Active",
+        "farm_type": "Seabass-seabream and other coastal fish",
+        "production": "Sea cages",
+        "producti_1": "Grow out for human consumption",
+        "purpose": "n.a.",
+        "species_so": "Mediterranean marine fish",
+        "point_info": "Original",
+        "coast_dist": 4813.12881127,
+        "position_c": "Within the coastline",
+        "species_id": "15",
+        "eurostatco": "F33",
+        "eurospecie": "Miscellaneous coastal fishes",
+        "eurospeci0": "n.a."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.045555556000068,
+          37.965833333000035
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "gid": 1533,
+        "site_id": "GR_0357",
+        "country": "Greece",
+        "owner_name": "Ovrialos P.C.",
+        "status": "Active",
+        "farm_type": "Seabass-seabream and other coastal fish",
+        "production": "Saltwater tanks/raceways",
+        "producti_1": "Hatchery, Nursery, Broodstock",
+        "purpose": "n.a.",
+        "species_so": "Mediterranean marine fish",
+        "point_info": "Original",
+        "coast_dist": 26610.031005,
+        "position_c": "Within the coastline",
+        "species_id": "15",
+        "eurostatco": "F33",
+        "eurospecie": "Miscellaneous coastal fishes",
+        "eurospeci0": "n.a."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.456666667000036,
+          39.033055556000079
+        ]
+      }
     }
   ]
 }

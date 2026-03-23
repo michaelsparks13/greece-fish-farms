@@ -6176,6 +6176,37 @@
           40.4308333330001
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 557,
+        "site_id": "EL_0039",
+        "country": "Greece",
+        "owner": "Darmouslis Alexandros And Vitis Konstantinos",
+        "area_name": "n.a.",
+        "status": "n.a.",
+        "farmtype": "Mussels",
+        "prod_metho": "n.a.",
+        "prod_stage": "Grow out for human consumption",
+        "purpose": "n.a.",
+        "species": "Mytilus galloprovincialis",
+        "position_i": "Original",
+        "point_def": "Farm",
+        "distance_t": 1951.07371889,
+        "costal_inl": "At sea",
+        "eurostatco": "MSM",
+        "species_gr": "Mussels",
+        "species_na": "Mediterranean mussel - Mytilus galloprovincialis",
+        "speciesid": 147
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.698055556,
+          40.491388889000099
+        ]
+      }
     }
   ]
 }
