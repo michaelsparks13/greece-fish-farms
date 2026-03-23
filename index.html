@@ -23,11 +23,11 @@
                     </div>
                     <div class="stat">
                         <span class="stat-number" id="finfish-count">0</span>
-                        <span class="stat-label">Finfish Farms</span>
+                        <span class="stat-label">Fed Farms</span>
                     </div>
                     <div class="stat">
                         <span class="stat-number" id="shellfish-count">0</span>
-                        <span class="stat-label">Shellfish Farms</span>
+                        <span class="stat-label">Non-fed Farms</span>
                     </div>
                     <div class="stat">
                         <span class="stat-number" id="abandoned-count">0</span>
@@ -49,8 +49,8 @@
                         <label>Type</label>
                         <div class="filter-buttons" id="type-filter">
                             <button class="filter-btn active" data-value="all">All</button>
-                            <button class="filter-btn" data-value="finfish">Finfish</button>
-                            <button class="filter-btn" data-value="shellfish">Shellfish</button>
+                            <button class="filter-btn" data-value="finfish">Fed</button>
+                            <button class="filter-btn" data-value="shellfish">Non-fed</button>
                         </div>
                     </div>
                     <div class="filter-group">
@@ -82,8 +82,8 @@
             <button id="sidebar-toggle" class="sidebar-toggle" aria-label="Open menu">&#9776;</button>
             <div id="map"></div>
             <div id="legend">
-                <div class="legend-item legend-toggle" id="toggle-finfish"><span class="legend-icon finfish-icon"></span> Finfish<span class="legend-info legend-info-left" data-tip="Carnivorous species (e.g. sea bass, sea bream) that, when farmed, are often fed fishmeal reduced from wild-caught fish">&#9432;</span></div>
-                <div class="legend-item legend-toggle" id="toggle-shellfish"><span class="legend-icon shellfish-icon"></span> Shellfish<span class="legend-info" data-tip="Filter feeders (e.g. mussels) that consume naturally occurring algae and plankton">&#9432;</span></div>
+                <div class="legend-item legend-toggle" id="toggle-finfish"><span class="legend-icon finfish-icon"></span> Fed<span class="legend-info legend-info-left" data-tip="Carnivorous or omnivorous species (e.g. sea bass, sea bream) that, when farmed, are often fed fishmeal reduced from wild-caught fish">&#9432;</span></div>
+                <div class="legend-item legend-toggle" id="toggle-shellfish"><span class="legend-icon shellfish-icon"></span> Non-fed<span class="legend-info" data-tip="Filter feeders (e.g. mussels) that consume naturally occurring algae and plankton">&#9432;</span></div>
                 <div class="legend-item legend-toggle" id="toggle-abandoned"><span class="legend-icon abandoned-icon"></span> Abandoned Farms</div>
                 <div class="legend-item legend-toggle" id="toggle-poay"><span class="legend-icon poay-icon"></span> Expansion Targets<span class="legend-info" data-tip="Areas targeted by the Greek government for increased fish farming">&#9432;</span></div>
                 <div class="legend-item legend-toggle" id="toggle-natura2000"><span class="legend-icon natura2000-icon"></span> Protected Areas<span class="legend-info" data-tip="Marine areas protected under EU law to conserve wildlife and natural habitats">&#9432;</span></div>

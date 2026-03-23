@@ -18,7 +18,7 @@ const TABLE_ROWS_PER_PAGE = 100;
 
 const TABLE_COLUMNS = [
     { key: 'owner', label: 'Owner' },
-    { key: 'type', label: 'Type', info: 'Finfish (e.g. sea bass, sea bream) are carnivorous and, when farmed, are often fed fishmeal reduced from wild-caught fish. Shellfish (e.g. mussels) are filter feeders that consume algae and plankton.' },
+    { key: 'type', label: 'Type', info: 'Fed species (e.g. sea bass, sea bream) are carnivorous or omnivorous and, when farmed, are often fed fishmeal reduced from wild-caught fish. Non-fed species (e.g. mussels) are filter feeders that consume algae and plankton.' },
     { key: 'category', label: 'Category', info: 'The farm classification such as cage-based, pond, or hatchery' },
     { key: 'species', label: 'Species' },
     { key: 'production', label: 'Production' },
@@ -900,9 +900,9 @@ function showDetail(farm) {
             <h3>Classification</h3>
             <div class="detail-field">
                 <span class="detail-field-label">Type</span>
-                <span class="detail-field-value">${farm.type === 'finfish' ? 'Finfish' : 'Shellfish'}</span>
+                <span class="detail-field-value">${farm.type === 'finfish' ? 'Fed' : 'Non-fed'}</span>
             </div>
-            <div class="detail-type-note ${farm.type}">${farm.type === 'finfish' ? 'Carnivorous — when farmed, often fed fishmeal reduced from wild-caught fish' : 'Filter feeder — consumes naturally occurring algae and plankton'}</div>
+            <div class="detail-type-note ${farm.type}">${farm.type === 'finfish' ? 'Carnivorous or omnivorous — when farmed, often fed fishmeal reduced from wild-caught fish' : 'Filter feeder — consumes naturally occurring algae and plankton'}</div>
             <div class="detail-field">
                 <span class="detail-field-label">Category</span>
                 <span class="detail-field-value">${farm.category}</span>
