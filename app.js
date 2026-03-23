@@ -23,7 +23,6 @@ const TABLE_COLUMNS = [
     { key: 'species', label: 'Species' },
     { key: 'production', label: 'Production' },
     { key: 'stage', label: 'Stage' },
-    { key: 'position', label: 'Position' },
     { key: 'coastDist', label: 'Coast Dist.' },
     { key: 'status', label: 'Status' },
     { key: 'eurostat', label: 'Eurostat', info: 'EU statistical classification code used for harmonized aquaculture reporting' },
@@ -173,7 +172,6 @@ function processData() {
             production: p.production || '',
             stage: p.producti_1 || '',
             species: p.species_so || '',
-            position: p.position_c || '',
             coastDist: p.coast_dist || 0,
             status: p.status || '',
             eurostat: p.eurostatco || '',
@@ -194,7 +192,6 @@ function processData() {
             production: p.prod_metho || '',
             stage: p.prod_stage || '',
             species: p.species || '',
-            position: p.costal_inl || '',
             coastDist: p.distance_t || 0,
             status: (!p.status || p.status.toLowerCase() === 'n.a.') ? 'Active' : p.status,
             eurostat: p.eurostatco || '',
@@ -281,7 +278,6 @@ function renderList() {
             </div>
             <div class="farm-item-meta">
                 <span>${farm.category}</span>
-                <span>${farm.position}</span>
             </div>
         `;
         div.addEventListener('click', () => selectFarm(farm, true));
@@ -834,7 +830,6 @@ function selectFarm(farm, fromSidebar = false) {
             <div class="popup-owner">${farm.owner}</div>
             <div class="popup-detail"><strong>Type:</strong> ${farm.category}</div>
             <div class="popup-detail"><strong>Species:</strong> ${farm.species}</div>
-            <div class="popup-detail"><strong>Position:</strong> ${farm.position}</div>
         `)
         .addTo(map);
 
@@ -928,10 +923,6 @@ function showDetail(farm) {
 
         <div class="detail-section">
             <h3>Location</h3>
-            <div class="detail-field">
-                <span class="detail-field-label">Position</span>
-                <span class="detail-field-value">${farm.position}</span>
-            </div>
             <div class="detail-field">
                 <span class="detail-field-label">Coast Distance</span>
                 <span class="detail-field-value">${distLabel}</span>
@@ -1072,7 +1063,6 @@ function renderTableBody() {
             <td>${farm.species || 'N/A'}</td>
             <td>${farm.production || 'N/A'}</td>
             <td>${farm.stage || 'N/A'}</td>
-            <td>${farm.position || 'N/A'}</td>
             <td>${formatCoastDist(farm.coastDist)}</td>
             <td>${farm.status || 'N/A'}</td>
             <td>${farm.eurostat || 'N/A'}</td>
@@ -1136,7 +1126,7 @@ function getPageNumbers(current, total) {
 function generateCSV(farms) {
     const headers = [
         'Site ID', 'Owner', 'Type', 'Category', 'Species',
-        'Production', 'Stage', 'Position', 'Coast Distance (m)', 'Status', 'Eurostat Code',
+        'Production', 'Stage', 'Coast Distance (m)', 'Status', 'Eurostat Code',
         'Eurostat Species', 'Scientific Name', 'Lat', 'Lon'
     ];
 
@@ -1157,7 +1147,6 @@ function generateCSV(farms) {
         escapeCSV(farm.species),
         escapeCSV(farm.production),
         escapeCSV(farm.stage),
-        escapeCSV(farm.position),
         farm.coastDist || '',
         escapeCSV(farm.status),
         escapeCSV(farm.eurostat),
