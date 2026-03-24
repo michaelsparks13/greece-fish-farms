@@ -521,14 +521,10 @@ function addMapLayers() {
         paint: {
             'fill-color': '#2d9e8f',
             'fill-opacity': [
-                'case',
-                ['boolean', ['feature-state', 'hover'], false],
-                0.3,
-                ['interpolate', ['linear'], ['zoom'],
-                    4, 0.1,
-                    8, 0.15,
-                    12, 0.18
-                ]
+                'interpolate', ['linear'], ['zoom'],
+                4, ['case', ['boolean', ['feature-state', 'hover'], false], 0.3, 0.1],
+                8, ['case', ['boolean', ['feature-state', 'hover'], false], 0.3, 0.15],
+                12, ['case', ['boolean', ['feature-state', 'hover'], false], 0.3, 0.18]
             ]
         }
     });
@@ -592,14 +588,10 @@ function addMapLayers() {
         paint: {
             'fill-color': '#d4a052',
             'fill-opacity': [
-                'case',
-                ['boolean', ['feature-state', 'hover'], false],
-                0.35,
-                ['interpolate', ['linear'], ['zoom'],
-                    4, 0.12,
-                    8, 0.18,
-                    12, 0.22
-                ]
+                'interpolate', ['linear'], ['zoom'],
+                4, ['case', ['boolean', ['feature-state', 'hover'], false], 0.35, 0.12],
+                8, ['case', ['boolean', ['feature-state', 'hover'], false], 0.35, 0.18],
+                12, ['case', ['boolean', ['feature-state', 'hover'], false], 0.35, 0.22]
             ]
         }
     });
