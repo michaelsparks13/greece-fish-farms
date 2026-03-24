@@ -879,6 +879,12 @@ function showPoayDetail(props) {
                 <span class="detail-field-value">${props.name_gr || 'N/A'}</span>
             </div>
         </div>
+
+        <div class="detail-section">
+            <h3>Background</h3>
+            <p class="detail-note">Greece's 2011 aquaculture framework established 25 POAY zones nationwide, but more than a decade later only about half have been approved or are partially operational, with delays in completing the spatial planning framework undermining the government's own development goals.</p>
+            <a class="detail-source-link" href="https://www.tovima.com/stories/europe-wants-more-fish-farms-is-greece-ready/" target="_blank" rel="noopener">Source: ToVima</a>
+        </div>
     `;
 
     panel.classList.remove('hidden');
