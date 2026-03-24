@@ -1422,4 +1422,20 @@ function initMinimap() {
     });
 }
 
+// Methodology modal
+(function() {
+    const btn = document.getElementById('methodology-btn');
+    const overlay = document.getElementById('methodology-overlay');
+    const closeBtn = document.getElementById('methodology-close');
+    if (!btn || !overlay) return;
+    btn.addEventListener('click', () => overlay.classList.remove('hidden'));
+    closeBtn.addEventListener('click', () => overlay.classList.add('hidden'));
+    overlay.addEventListener('click', (e) => {
+        if (e.target === overlay) overlay.classList.add('hidden');
+    });
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && !overlay.classList.contains('hidden')) overlay.classList.add('hidden');
+    });
+})();
+
 init();
