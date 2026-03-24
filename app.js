@@ -506,6 +506,8 @@ function addMapLayers() {
     });
 
     // Natura 2000 marine protected areas — background context layer
+    console.log('[addMapLayers] Adding natura2000 layers, data features:', natura2000Data?.features?.length);
+    try {
     map.addSource('natura2000-source', {
         type: 'geojson',
         data: natura2000Data,
@@ -571,7 +573,12 @@ function addMapLayers() {
         }
     });
 
+    console.log('[addMapLayers] natura2000 layers added OK, map has layer:', !!map.getLayer('natura2000-fill'));
+    } catch (e) { console.error('[addMapLayers] natura2000 error:', e); }
+
     // POAY aquaculture zones — rendered above farm layers for visibility
+    console.log('[addMapLayers] Adding POAY layers, data features:', poayData?.features?.length);
+    try {
     map.addSource('poay-source', {
         type: 'geojson',
         data: poayData,
@@ -637,6 +644,11 @@ function addMapLayers() {
         }
     });
 
+    console.log('[addMapLayers] POAY layers added OK, map has layer:', !!map.getLayer('poay-fill'));
+    } catch (e) { console.error('[addMapLayers] POAY error:', e); }
+
+    console.log('[addMapLayers] Final check — poay-fill:', !!map.getLayer('poay-fill'), 'natura2000-fill:', !!map.getLayer('natura2000-fill'));
+
     // Unified click handler — farms/abandoned take priority over POAY fill
     map.on('click', (e) => {
         try {
@@ -668,7 +680,7 @@ function addMapLayers() {
         }
 
         // Then check POAY zones
-        const poayHits = map.queryRenderedFeatures(e.point, { layers: ['poay-fill'] });
+        const poayHits = map.getLayer('poay-fill') ? map.queryRenderedFeatures(e.point, { layers: ['poay-fill'] }) : [];
         if (poayHits.length > 0) {
             const hit = poayHits[0];
             const p = hit.properties;
@@ -701,7 +713,7 @@ function addMapLayers() {
         }
 
         // Then check Natura 2000 zones
-        const n2kHits = map.queryRenderedFeatures(e.point, { layers: ['natura2000-fill'] });
+        const n2kHits = map.getLayer('natura2000-fill') ? map.queryRenderedFeatures(e.point, { layers: ['natura2000-fill'] }) : [];
         if (n2kHits.length > 0) {
             const hit = n2kHits[0];
             const p = hit.properties;
