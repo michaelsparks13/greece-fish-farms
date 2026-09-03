@@ -2,6 +2,7 @@
 
 import { useEffect, useRef } from 'react';
 import maplibregl, { Map as MLMap } from 'maplibre-gl';
+import { basemapStyleUrl, flattenBasemap } from '@/lib/basemap';
 
 export function Minimap() {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -12,18 +13,7 @@ export function Minimap() {
 
     const map = new maplibregl.Map({
       container: containerRef.current,
-      style: {
-        version: 8,
-        sources: {
-          'carto-light': {
-            type: 'raster',
-            tiles: ['https://a.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}@2x.png'],
-            tileSize: 256,
-          },
-        },
-        layers: [{ id: 'carto-light-layer', type: 'raster', source: 'carto-light' }],
-        glyphs: 'https://fonts.openmaptiles.org/{fontstack}/{range}.pbf',
-      },
+      style: basemapStyleUrl('backdrop-light'),
       center: [23.4, 40.9],
       zoom: 0.5,
       interactive: false,
@@ -39,6 +29,8 @@ export function Minimap() {
       [19.3, 42.0],
       [19.3, 34.5],
     ];
+
+    map.once('style.load', () => flattenBasemap(map));
 
     map.on('load', () => {
       map.addSource('viewport-box', {

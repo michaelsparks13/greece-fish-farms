@@ -4,6 +4,7 @@ import { useEffect, useRef } from 'react';
 import maplibregl, { Map as MLMap, Popup } from 'maplibre-gl';
 import type { FeatureCollection } from 'geojson';
 import type { Farm, GeoData, Filters, LayerToggles } from '@/lib/types';
+import { basemapStyleUrl, flattenBasemap } from '@/lib/basemap';
 import {
   filterMapFinfish,
   filterMapShellfish,
@@ -121,86 +122,7 @@ export function MapView({
 
     const map = new maplibregl.Map({
       container: containerRef.current,
-      style: {
-        version: 8,
-        sources: {
-          'carto-dark': {
-            type: 'raster',
-            tiles: [
-              'https://a.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}@2x.png',
-              'https://b.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}@2x.png',
-            ],
-            tileSize: 256,
-            attribution:
-              '&copy; <a href="https://carto.com/">CARTO</a> &copy; <a href="https://www.openstreetmap.org/copyright">OSM</a>',
-          },
-          'country-labels': {
-            type: 'geojson',
-            data: {
-              type: 'FeatureCollection',
-              features: [
-                { type: 'Feature', geometry: { type: 'Point', coordinates: [21.8, 39.5] }, properties: { name: 'Greece', large: true } },
-                { type: 'Feature', geometry: { type: 'Point', coordinates: [29.0, 38.5] }, properties: { name: 'Turkey' } },
-                { type: 'Feature', geometry: { type: 'Point', coordinates: [25.3, 42.7] }, properties: { name: 'Bulgaria' } },
-                { type: 'Feature', geometry: { type: 'Point', coordinates: [20.1, 41.3] }, properties: { name: 'Albania' } },
-                { type: 'Feature', geometry: { type: 'Point', coordinates: [21.7, 41.2] }, properties: { name: 'North Macedonia' } },
-                { type: 'Feature', geometry: { type: 'Point', coordinates: [16.5, 40.5] }, properties: { name: 'Italy' } },
-                { type: 'Feature', geometry: { type: 'Point', coordinates: [33.4, 35.1] }, properties: { name: 'Cyprus' } },
-                { type: 'Feature', geometry: { type: 'Point', coordinates: [24.7, 35.2] }, properties: { name: 'Crete' } },
-                { type: 'Feature', geometry: { type: 'Point', coordinates: [30.8, 33.5] }, properties: { name: 'Egypt' } },
-                { type: 'Feature', geometry: { type: 'Point', coordinates: [35.5, 33.9] }, properties: { name: 'Lebanon' } },
-                { type: 'Feature', geometry: { type: 'Point', coordinates: [36.3, 35.0] }, properties: { name: 'Syria' } },
-              ],
-            },
-          },
-        },
-        layers: [
-          { id: 'carto-dark-layer', type: 'raster', source: 'carto-dark', minzoom: 0, maxzoom: 20 },
-          {
-            id: 'country-labels-layer',
-            type: 'symbol',
-            source: 'country-labels',
-            filter: ['!=', ['get', 'large'], true],
-            layout: {
-              'text-field': ['get', 'name'],
-              'text-font': ['Open Sans Regular'],
-              'text-size': ['interpolate', ['linear'], ['zoom'], 3, 10, 6, 14, 9, 16],
-              'text-transform': 'uppercase',
-              'text-letter-spacing': 0.15,
-              'text-max-width': 8,
-              'text-allow-overlap': false,
-              'text-padding': 10,
-            },
-            paint: {
-              'text-color': '#8a8a8a',
-              'text-halo-color': 'rgba(0, 0, 0, 0.8)',
-              'text-halo-width': 1.5,
-            },
-          },
-          {
-            id: 'greece-label-layer',
-            type: 'symbol',
-            source: 'country-labels',
-            filter: ['==', ['get', 'large'], true],
-            layout: {
-              'text-field': ['get', 'name'],
-              'text-font': ['Open Sans Regular'],
-              'text-size': ['interpolate', ['linear'], ['zoom'], 3, 20, 6, 28, 9, 32],
-              'text-transform': 'uppercase',
-              'text-letter-spacing': 0.15,
-              'text-max-width': 8,
-              'text-allow-overlap': false,
-              'text-padding': 10,
-            },
-            paint: {
-              'text-color': '#8a8a8a',
-              'text-halo-color': 'rgba(0, 0, 0, 0.8)',
-              'text-halo-width': 1.5,
-            },
-          },
-        ],
-        glyphs: 'https://fonts.openmaptiles.org/{fontstack}/{range}.pbf',
-      },
+      style: basemapStyleUrl('backdrop-dark'),
       center: GREECE_CENTER,
       zoom: 5.95,
       pitch: 23.5,
@@ -216,6 +138,11 @@ export function MapView({
     if (process.env.NODE_ENV !== 'production') {
       (window as unknown as { __map: MLMap }).__map = map;
     }
+
+    map.once('style.load', () => {
+      flattenBasemap(map);
+      addCountryLabels(map);
+    });
 
     map.on('load', () => {
       addLayers(map, data);
@@ -487,6 +414,71 @@ function escapeHtml(s: string): string {
     .replace(/>/g, '&gt;')
     .replace(/"/g, '&quot;')
     .replace(/'/g, '&#39;');
+}
+
+/** Country/sea labels drawn by the app itself, on top of the label-free basemap. */
+function addCountryLabels(map: MLMap) {
+  map.addSource('country-labels', {
+    type: 'geojson',
+    data: {
+      type: 'FeatureCollection',
+      features: [
+        { type: 'Feature', geometry: { type: 'Point', coordinates: [21.8, 39.5] }, properties: { name: 'Greece', large: true } },
+        { type: 'Feature', geometry: { type: 'Point', coordinates: [29.0, 38.5] }, properties: { name: 'Turkey' } },
+        { type: 'Feature', geometry: { type: 'Point', coordinates: [25.3, 42.7] }, properties: { name: 'Bulgaria' } },
+        { type: 'Feature', geometry: { type: 'Point', coordinates: [20.1, 41.3] }, properties: { name: 'Albania' } },
+        { type: 'Feature', geometry: { type: 'Point', coordinates: [21.7, 41.2] }, properties: { name: 'North Macedonia' } },
+        { type: 'Feature', geometry: { type: 'Point', coordinates: [16.5, 40.5] }, properties: { name: 'Italy' } },
+        { type: 'Feature', geometry: { type: 'Point', coordinates: [33.4, 35.1] }, properties: { name: 'Cyprus' } },
+        { type: 'Feature', geometry: { type: 'Point', coordinates: [24.7, 35.2] }, properties: { name: 'Crete' } },
+        { type: 'Feature', geometry: { type: 'Point', coordinates: [30.8, 33.5] }, properties: { name: 'Egypt' } },
+        { type: 'Feature', geometry: { type: 'Point', coordinates: [35.5, 33.9] }, properties: { name: 'Lebanon' } },
+        { type: 'Feature', geometry: { type: 'Point', coordinates: [36.3, 35.0] }, properties: { name: 'Syria' } },
+      ],
+    },
+  });
+  map.addLayer({
+    id: 'country-labels-layer',
+    type: 'symbol',
+    source: 'country-labels',
+    filter: ['!=', ['get', 'large'], true],
+    layout: {
+      'text-field': ['get', 'name'],
+      'text-font': ['Open Sans Regular'],
+      'text-size': ['interpolate', ['linear'], ['zoom'], 3, 10, 6, 14, 9, 16],
+      'text-transform': 'uppercase',
+      'text-letter-spacing': 0.15,
+      'text-max-width': 8,
+      'text-allow-overlap': false,
+      'text-padding': 10,
+    },
+    paint: {
+      'text-color': '#8a8a8a',
+      'text-halo-color': 'rgba(0, 0, 0, 0.8)',
+      'text-halo-width': 1.5,
+    },
+  });
+  map.addLayer({
+    id: 'greece-label-layer',
+    type: 'symbol',
+    source: 'country-labels',
+    filter: ['==', ['get', 'large'], true],
+    layout: {
+      'text-field': ['get', 'name'],
+      'text-font': ['Open Sans Regular'],
+      'text-size': ['interpolate', ['linear'], ['zoom'], 3, 20, 6, 28, 9, 32],
+      'text-transform': 'uppercase',
+      'text-letter-spacing': 0.15,
+      'text-max-width': 8,
+      'text-allow-overlap': false,
+      'text-padding': 10,
+    },
+    paint: {
+      'text-color': '#8a8a8a',
+      'text-halo-color': 'rgba(0, 0, 0, 0.8)',
+      'text-halo-width': 1.5,
+    },
+  });
 }
 
 function addLayers(map: MLMap, data: GeoData) {
