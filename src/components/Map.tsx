@@ -4,7 +4,7 @@ import { useEffect, useRef } from 'react';
 import maplibregl, { Map as MLMap, Popup } from 'maplibre-gl';
 import type { FeatureCollection } from 'geojson';
 import type { Farm, GeoData, Filters, LayerToggles } from '@/lib/types';
-import { basemapStyleUrl, flattenBasemap } from '@/lib/basemap';
+import { basemapStyle, flattenBasemap, installBasemapFallback } from '@/lib/basemap';
 import {
   filterMapFinfish,
   filterMapShellfish,
@@ -122,7 +122,7 @@ export function MapView({
 
     const map = new maplibregl.Map({
       container: containerRef.current,
-      style: basemapStyleUrl('backdrop-dark'),
+      style: basemapStyle('backdrop-dark'),
       center: GREECE_CENTER,
       zoom: 5.95,
       pitch: 23.5,
@@ -135,11 +135,13 @@ export function MapView({
     map.addControl(new maplibregl.AttributionControl({ compact: true }), 'bottom-right');
 
     mapRef.current = map;
+    installBasemapFallback(map, 'backdrop-dark');
     if (process.env.NODE_ENV !== 'production') {
       (window as unknown as { __map: MLMap }).__map = map;
     }
 
-    map.once('style.load', () => {
+    // Runs again if the basemap falls back to CARTO (setStyle wipes sources/layers).
+    map.on('style.load', () => {
       flattenBasemap(map);
       addCountryLabels(map);
     });
@@ -418,6 +420,7 @@ function escapeHtml(s: string): string {
 
 /** Country/sea labels drawn by the app itself, on top of the label-free basemap. */
 function addCountryLabels(map: MLMap) {
+  if (map.getSource('country-labels')) return;
   map.addSource('country-labels', {
     type: 'geojson',
     data: {

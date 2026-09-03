@@ -2,7 +2,7 @@
 
 import { useEffect, useRef } from 'react';
 import maplibregl, { Map as MLMap } from 'maplibre-gl';
-import { basemapStyleUrl, flattenBasemap } from '@/lib/basemap';
+import { basemapStyle, flattenBasemap, installBasemapFallback } from '@/lib/basemap';
 
 export function Minimap() {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -13,7 +13,7 @@ export function Minimap() {
 
     const map = new maplibregl.Map({
       container: containerRef.current,
-      style: basemapStyleUrl('backdrop-light'),
+      style: basemapStyle('backdrop-light'),
       center: [23.4, 40.9],
       zoom: 0.5,
       interactive: false,
@@ -21,6 +21,7 @@ export function Minimap() {
     });
 
     mapRef.current = map;
+    installBasemapFallback(map, 'backdrop-light');
 
     const greeceBounds = [
       [19.3, 34.5],
@@ -30,7 +31,7 @@ export function Minimap() {
       [19.3, 34.5],
     ];
 
-    map.once('style.load', () => flattenBasemap(map));
+    map.on('style.load', () => flattenBasemap(map));
 
     map.on('load', () => {
       map.addSource('viewport-box', {
